@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace TSTune.DesignPattern.BehavioralPatterns.VisitorPattern
 {
+    /// <summary>
+    /// Specific element representing a code block
+    /// </summary>
     public class BinaryStatement: Statement
     {
         public BinaryStatement(Statement left, Statement right)

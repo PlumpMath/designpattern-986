@@ -7,10 +7,15 @@ using System.Threading.Tasks;
 
 namespace TSTune.DesignPattern.BehavioralPatterns.VisitorPattern
 {
+    /// <summary>
+    /// Sample implementation for a visitor with indented output
+    /// Keeps track of the syntax tree depth by keeping a local variable (internal state)
+    /// </summary>
     public class SyntaxTreeIndentVisitor: ISyntaxTreeVisitor
     {
         private int _indent = 0;
 
+        #region Visitor members
         public void Visit(BinaryStatement statement)
         {
             Write("Start visit BinaryStatement");
@@ -38,6 +43,7 @@ namespace TSTune.DesignPattern.BehavioralPatterns.VisitorPattern
             _indent--;
             Write("End visit SyntaxTree");
         }
+        #endregion
 
         private void Write(string message)
         {

@@ -1,0 +1,63 @@
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using TSTune.DesignPattern.CreationalPatterns.SingletonPattern;
+
+namespace TSTune.DesignPattern.UnitTests.CreationalPatterns
+{
+    /// <summary>
+    /// Unit test for the singleton example
+    /// </summary>
+    [TestClass]
+    public class SingletonTest
+    {
+        [TestMethod]
+        public void SingletonShouldSimplyIncrementOnSameInstance()
+        {
+            // Arrange
+            IncrementalCounterSingleton.Instance.Reset();
+            int count = 100;
+
+            // Act
+            for (int i = 0; i < 100; i++)
+            {
+                IncrementalCounterSingleton.Instance.Increment();
+            }
+
+            // Assert
+            Assert.AreEqual(count, IncrementalCounterSingleton.Instance.GetCurrentValue());
+        }
+
+        [TestMethod]
+        public void SingletonShouldBeThreadSafe()
+        {
+            // Arrange
+            IncrementalCounterSingleton.Instance.Reset();
+            int threads = 100;
+
+            // Act
+            // Start defined number of threads which all increment the singleton counter
+            var taskList = new List<Task<long>>();
+            for (int i = 0; i < threads; i++)
+            {
+                taskList.Add(Task<long>.Factory.StartNew(a => IncrementalCounterSingleton.Instance.Increment(), i));
+            }
+
+            Task.WaitAll(taskList.ToArray(), 1000);
+
+            // Assert
+            // Check wheater the counter has the expected value (increment by 1 per thread)
+            Assert.AreEqual(threads, IncrementalCounterSingleton.Instance.GetCurrentValue());
+            // Go through the whole result array of the tasks, every number from 1 to 1000 should be exactly once in there
+            for (int i = 0; i < threads; i++)
+            {
+                var resultToSearch = i + 1;
+                var task = taskList.Single(item => item.Result == resultToSearch);
+                Assert.AreEqual(resultToSearch, task.Result);
+            }
+        }
+    }
+}

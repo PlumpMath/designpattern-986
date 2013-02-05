@@ -46,10 +46,11 @@
     <Compile Include="BehavioralPatterns\VisitorPattern\SyntaxTree.cs" />
     <Compile Include="BehavioralPatterns\VisitorPattern\ISyntaxTreeVisitor.cs" />
     <Compile Include="BehavioralPatterns\VisitorPattern\ValueStatement.cs" />
+    <Compile Include="BehavioralPatterns\VisitorPattern\VisitResultEventArgs.cs" />
+    <Compile Include="CreationalPatterns\SingletonPattern\IncrementalCounterSingleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="CreationalPatterns\" />
     <Folder Include="StructuralPatterns\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

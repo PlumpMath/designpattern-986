@@ -51,10 +51,10 @@
   </Choose>
   <ItemGroup>
     <Compile Include="BehavioralPatterns\VisitorTest.cs" />
+    <Compile Include="CreationalPatterns\SingletonTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="CreationalPatterns\" />
     <Folder Include="StructuralPatterns\" />
   </ItemGroup>
   <ItemGroup>

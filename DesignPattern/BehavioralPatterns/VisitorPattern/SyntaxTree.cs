@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace TSTune.DesignPattern.BehavioralPatterns.VisitorPattern
 {
+    /// <summary>
+    /// Specific element representing the whole code block / List of statements
+    /// </summary>
     public class SyntaxTree: Statement
     {
         public SyntaxTree(IList<Statement> statements)

@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace TSTune.DesignPattern.BehavioralPatterns.VisitorPattern
 {
+    /// <summary>
+    /// Visitor interface
+    /// Visitor Pattern: New operations on classes can be added without modifing the class/data structure itself
+    /// Visitor can keep track by maintaining internal state information
+    /// </summary>
     public interface ISyntaxTreeVisitor
     {
         void Visit(BinaryStatement statement);

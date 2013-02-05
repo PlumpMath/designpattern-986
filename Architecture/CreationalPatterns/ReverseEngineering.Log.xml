@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 11.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2013-02-05T17:50:26" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2013-02-05T17:50:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::System' -  (Package)" />
+  <Message Timestamp="2013-02-05T17:50:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::System::Int64' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2013-02-05T17:50:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::System::Object' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2013-02-05T17:50:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune' -  (Package)" />
+  <Message Timestamp="2013-02-05T17:50:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern' -  (Package)" />
+  <Message Timestamp="2013-02-05T17:50:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::CreationalPatterns' -  (Package)" />
+  <Message Timestamp="2013-02-05T17:50:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::CreationalPatterns::SingletonPattern' -  (Package)" />
+  <Message Timestamp="2013-02-05T17:50:29" Importance="Medium" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::CreationalPatterns::SingletonPattern::IncrementalCounterSingleton' -  (Class)" />
+  <Message Timestamp="2013-02-05T17:50:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::CreationalPatterns::SingletonPattern::IncrementalCounterSingleton::_counter' -  (Property)" />
+  <Message Timestamp="2013-02-05T17:50:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::CreationalPatterns::SingletonPattern::IncrementalCounterSingleton::_instance' -  (Property)" />
+  <Message Timestamp="2013-02-05T17:50:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::CreationalPatterns::SingletonPattern::IncrementalCounterSingleton::_lockObject' -  (Property)" />
+  <Message Timestamp="2013-02-05T17:50:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::CreationalPatterns::SingletonPattern::IncrementalCounterSingleton::GetCurrentValue' -  (Operation)" />
+  <Message Timestamp="2013-02-05T17:50:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::CreationalPatterns::SingletonPattern::IncrementalCounterSingleton::Increment' -  (Operation)" />
+  <Message Timestamp="2013-02-05T17:50:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::CreationalPatterns::SingletonPattern::IncrementalCounterSingleton::IncrementalCounterSingleton' -  (Operation)" />
+  <Message Timestamp="2013-02-05T17:50:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::CreationalPatterns::SingletonPattern::IncrementalCounterSingleton::Instance' -  (Property)" />
+  <Message Timestamp="2013-02-05T17:50:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::CreationalPatterns::SingletonPattern::IncrementalCounterSingleton::Reset' -  (Operation)" />
+  <Message Timestamp="2013-02-05T17:50:29" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: Architecture::TSTune::DesignPattern::CreationalPatterns::SingletonPattern::IncrementalCounterSingleton to Architecture::TSTune::DesignPattern::CreationalPatterns::SingletonPattern::IncrementalCounterSingleton (Association)" />
+  <Message Timestamp="2013-02-05T17:50:29" Importance="High" Text="(1) type(s) fully reverse engineered." />
+  <Message Timestamp="2013-02-05T17:50:29" Importance="High" Text="(2) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2013-02-05T17:50:29" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>

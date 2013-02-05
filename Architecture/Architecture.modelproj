@@ -22,7 +22,17 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
+    <Content Include="CreationalPatterns\Singleton.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="CreationalPatterns\Singleton.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>CreationalPatterns\Singleton.classdiagram</DependentUpon>
+    </Content>
     <Content Include="ModelDefinition\Package1_1107.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_1750.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package2_1107.uml">
@@ -41,6 +51,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_1107.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1750.uml">
       <SubType>Content</SubType>
     </Content>
     <Folder Include="ModelDefinition\" />
