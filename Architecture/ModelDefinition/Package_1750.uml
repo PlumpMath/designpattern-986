@@ -17,5 +17,11 @@
         LastKnownName="SingletonPattern"
         LastKnownLocation="Package1_1750.uml" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="0a3132b4-4538-471e-af99-c2d554dfe90e"
+        LastKnownName="FactoryMethodPattern"
+        LastKnownLocation="Package_2221.uml" />
+    </packageHasNamedElement>
   </packagedElements>
 </package>

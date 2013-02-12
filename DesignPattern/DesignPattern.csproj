@@ -47,10 +47,19 @@
     <Compile Include="BehavioralPatterns\VisitorPattern\ISyntaxTreeVisitor.cs" />
     <Compile Include="BehavioralPatterns\VisitorPattern\ValueStatement.cs" />
     <Compile Include="BehavioralPatterns\VisitorPattern\VisitResultEventArgs.cs" />
+    <Compile Include="CreationalPatterns\BuilderPattern\HtmlNewsBuilder.cs" />
+    <Compile Include="CreationalPatterns\BuilderPattern\INewsBuilder.cs" />
+    <Compile Include="CreationalPatterns\BuilderPattern\NewsDirector.cs" />
+    <Compile Include="CreationalPatterns\BuilderPattern\RssNewsBuilder.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethodPattern\PngImageConverter.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethodPattern\IImageConverter.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethodPattern\GifImageConverter.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethodPattern\ImageConverterFactory.cs" />
     <Compile Include="CreationalPatterns\SingletonPattern\IncrementalCounterSingleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="CreationalPatterns\AbstractFactoryPattern\" />
     <Folder Include="StructuralPatterns\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

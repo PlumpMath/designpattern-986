@@ -15,7 +15,7 @@ namespace TSTune.DesignPattern.UnitTests.CreationalPatterns
     public class SingletonTest
     {
         [TestMethod]
-        public void SingletonShouldSimplyIncrementOnSameInstance()
+        public void Singleton_Should_IncrementOnSameInstance()
         {
             // Arrange
             IncrementalCounterSingleton.Instance.Reset();
@@ -32,7 +32,7 @@ namespace TSTune.DesignPattern.UnitTests.CreationalPatterns
         }
 
         [TestMethod]
-        public void SingletonShouldBeThreadSafe()
+        public void Singleton_ShouldBe_ThreadSafe()
         {
             // Arrange
             IncrementalCounterSingleton.Instance.Reset();

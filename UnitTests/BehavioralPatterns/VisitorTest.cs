@@ -14,12 +14,12 @@ namespace TSTune.DesignPattern.UnitTests.BehavioralPatterns
     public class VisitorTest
     {
         [TestMethod]
-        public void VisitorShouldFindAllValueStatements()
+        public void Visitor_Should_FindAllValueStatements()
         {
+            // Arrange
             var firstValue = "1";
             var fifthValue = "5";
             
-            // Arrange
             // Create first statement
             var valueStatement1a = new ValueStatement(firstValue);
             var valueStatement1b = new ValueStatement("2");
