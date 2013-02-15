@@ -36,6 +36,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Drawing" />
   </ItemGroup>
   <Choose>
@@ -52,8 +53,11 @@
   </Choose>
   <ItemGroup>
     <Compile Include="BehavioralPatterns\VisitorTest.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactoryTest.cs" />
     <Compile Include="CreationalPatterns\BuilderTest.cs" />
-    <Compile Include="CreationalPatterns\FactoryMethodTest.cs" />
+    <Compile Include="CreationalPatterns\ConfigurableFactoryMethodTest.cs" />
+    <Compile Include="CreationalPatterns\DynamicFactoryMethodTest.cs" />
+    <Compile Include="CreationalPatterns\PrototypeTest.cs" />
     <Compile Include="CreationalPatterns\SingletonTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -69,6 +73,9 @@
   <ItemGroup>
     <EmbeddedResource Include="TestResources\TestImage.gif" />
     <EmbeddedResource Include="TestResources\TestImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

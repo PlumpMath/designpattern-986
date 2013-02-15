@@ -1,0 +1,1186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="fe914e77-1a64-4b16-abd7-b26b4e4d7d37"
+  name="AbstractFactoryPattern"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="19789310-6e7c-4e65-8415-397f83a0879e"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DTSTune.DesignPattern.CreationalPatterns.AbstractFactoryPattern"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="e0bff557-868e-4d1c-b0c3-0fa588c8cfe5"
+        name="EnglandTaxCalculatorFactory"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="2e32ce94-3292-433c-8198-097cfb3e8bca"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.CreationalPatterns.AbstractFactoryPattern Type%3DEnglandTaxCalculatorFactory"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="cf4d4b32-222f-433f-90fb-e7e9525ab0aa"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="da8db2b3-f06f-4687-9b34-2d990f7a8c67">
+                <propertyInstance
+                  Id="c6d5b13e-9ba3-40b3-b160-30c1ff955ec3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3bdddde9-59e9-4fad-a18c-d8dac7476314">
+                <propertyInstance
+                  Id="d49d0757-a89c-448b-986a-3f5d8881d73c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="89b2e5a0-78f2-4dc9-bc9a-1d896041e6ba">
+                <propertyInstance
+                  Id="c781c2e4-d7e0-40ae-9136-edd7e771cc34"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fabf7a58-58e7-44cf-a9d8-9bad9d76c593">
+                <propertyInstance
+                  Id="131f32f3-f258-460f-b393-f6c17b99a7b2"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="db116937-390e-4759-9dd7-aa73c608f366">
+                <propertyInstance
+                  Id="c9ef5f00-9cc4-475b-a0c2-9a3153e19984"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="a506670a-d5e7-4e86-ba46-da6c968b6a32">
+            <interfaceMoniker
+              Id="06c51f18-154b-4b98-8751-aad82c17284d"
+              LastKnownName="ITaxCalculatorFactory"
+              LastKnownLocation="Package_1808.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="1c14b218-9d32-4ccc-805b-3dc67445465e"
+            name="EnglandTaxCalculatorFactory"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7841627a-b0e9-4398-9186-7db6ef4e8f16"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.CreationalPatterns.AbstractFactoryPattern Type%3DEnglandTaxCalculatorFactory Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4f30daef-c0d9-46c8-b898-d14bd7211084"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f9580a75-43e8-4f40-b8b3-ad79600b614e">
+                    <propertyInstance
+                      Id="4619f66c-614d-45db-a893-d32b7a7cd56b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fd2122e3-0ee6-41c2-bb79-25511288a099">
+                    <propertyInstance
+                      Id="3c683836-ae02-47a6-bbda-458aa0728f0b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2edc9bff-da21-4a55-a091-3d3c7f236da1">
+                    <propertyInstance
+                      Id="729f5d56-881f-47f8-b7f7-222ca087f345"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cfa36f01-a870-4031-8275-54440e638ca2">
+                    <propertyInstance
+                      Id="a71bd496-8875-492b-9b61-a0c744b1b284"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c1b00f4a-f6ea-4b89-837b-43ed1bcd1d18">
+                    <propertyInstance
+                      Id="cc6b7c2d-e723-4f94-843e-4ab1d1d4ebcb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="950795bd-caf4-4030-ba81-7f76a9179b1e">
+                    <propertyInstance
+                      Id="26cbd286-b9c1-4cbc-a772-53960483ffeb"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="dcde0c63-a4a4-48ca-ad89-32e13607e94f"
+            name="CreateValueAddedTaxCalculator"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d64a42cd-2c9d-4e3e-832a-f0dd3de30eaf"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.CreationalPatterns.AbstractFactoryPattern Type%3DEnglandTaxCalculatorFactory Member%3DCreateValueAddedTaxCalculator"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="be65d1a7-f856-4ed2-b277-2faa72f93051"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ac6ad53-dbfe-443c-8398-4a0130566c62">
+                    <propertyInstance
+                      Id="409ea8b4-8f40-403a-9c16-b92d57453351"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3438faf6-0e90-4c93-9091-bbfc59b1a33c">
+                    <propertyInstance
+                      Id="d080211d-8627-4aab-b17a-842376d3dc00"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="048d7ba5-dc9c-45f0-98be-920f08545849">
+                    <propertyInstance
+                      Id="e0a0c076-3e9a-4e6e-9092-c375973dc8a6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1b26ce14-d161-4de3-a49a-182019ef7c54">
+                    <propertyInstance
+                      Id="65858079-079c-4cce-a65d-b4432fe944df"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51167f22-cb2a-4c2f-b348-bb4dac453524">
+                    <propertyInstance
+                      Id="126666a8-e845-4251-a628-d584ee363c0e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6251b6c8-7b22-4e89-929e-0da501b49204">
+                    <propertyInstance
+                      Id="59b1d670-e9de-4e2b-9ead-0b1cfe6962f2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="094bb8db-5ff6-4f80-bbd0-f811824e0ed4"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="889ec590-60c0-425f-85d7-a3764faffc98"
+                      LastKnownName="IValueAddedTaxCalculator"
+                      LastKnownLocation="Package_1808.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="889ec590-60c0-425f-85d7-a3764faffc98"
+        name="IValueAddedTaxCalculator"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="ecd218b2-e70c-4cf7-ad60-26c413bf82ce"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.CreationalPatterns.AbstractFactoryPattern Type%3DIValueAddedTaxCalculator"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d7d30441-f5a3-4506-8d09-36fe49f8bddf"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="110dd4c5-6fe2-461a-a880-68c5fa61e369">
+                <propertyInstance
+                  Id="c4e9746e-5c11-4323-8162-ec76f4334e29"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="adb5fd48-2c7b-4ba9-8b7b-81335db24914">
+                <propertyInstance
+                  Id="2fa6c2ff-9c52-497f-9184-a68118f59e75"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="49d49aed-c4d0-440a-a114-515161526edf">
+                <propertyInstance
+                  Id="0c068886-0bac-463f-afae-a0b9e665057c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="762e8bc5-b861-4982-a50c-601e07904ee8">
+                <propertyInstance
+                  Id="c9aa98a2-718d-4e63-b146-e8287c4b3833"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="435d4524-51bc-456d-ac44-316d5afa2dd4"
+            name="CalculateGrossPrice"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ef158fd3-2af1-4681-80db-58715d7af8bd"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.CreationalPatterns.AbstractFactoryPattern Type%3DIValueAddedTaxCalculator Member%3D(Name%3DCalculateGrossPrice OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDecimal)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="94988f3e-4788-40d3-bc87-da00c8d4ede7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e5e10d8-e8d6-4de4-a669-d7dab6cd88e0">
+                    <propertyInstance
+                      Id="922fac18-4387-4938-aa4c-80aa12ac4823"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="23df8855-b7fb-4596-a64d-927831d69f26">
+                    <propertyInstance
+                      Id="9dc75d72-3039-4a7a-ad38-ba9078a21e6d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71f6a451-bf1c-4fa7-8d26-e1a1afbf246c">
+                    <propertyInstance
+                      Id="dfdcbb58-4f70-410d-bbd6-40afbe92c2fa"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="68a2ca30-a255-4fd7-b08b-1ada8af42fab">
+                    <propertyInstance
+                      Id="66e55d63-4059-4665-98a2-213395071d69"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f07f3b8d-b61a-4d29-9efd-2d531db4941b">
+                    <propertyInstance
+                      Id="72b23b6f-f825-4908-a2bd-2b15639c8bf9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6a4188a6-f0a2-4601-ba5c-ccf0dd524c1a">
+                    <propertyInstance
+                      Id="6873c401-d9ae-4632-b786-e56dbf9501d8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1ce60f2e-9ad8-46e7-be82-70b9cec53097"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="cdb931f9-db74-4f6f-97d1-2ed7efb13908"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package4_1107.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a68c479b-b019-4c0c-b1ff-e245845a4c83"
+                  name="netPrice"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e1160a5f-673b-476d-9d45-7534bb175177"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.CreationalPatterns.AbstractFactoryPattern Type%3DIValueAddedTaxCalculator Member%3D(Name%3DCalculateGrossPrice OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDecimal)]) ParameterIdentifier%3DnetPrice"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="cdb931f9-db74-4f6f-97d1-2ed7efb13908"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package4_1107.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="06c51f18-154b-4b98-8751-aad82c17284d"
+        name="ITaxCalculatorFactory"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="ba55f88b-7da3-43d3-8045-bf246f541d75"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.CreationalPatterns.AbstractFactoryPattern Type%3DITaxCalculatorFactory"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="7d250f4d-6428-4cf3-b00e-ed38b21bf312"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6a86cbfb-09f3-4318-b610-a41537280fcd">
+                <propertyInstance
+                  Id="49af6bf2-b1b3-4871-be13-3009ed10ff5b"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="88670fd3-5df4-46bf-949d-26d9e7975a8b">
+                <propertyInstance
+                  Id="53053d99-91f6-421f-a379-58cb9131630f"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="78a894eb-5ef5-4f11-af14-13f314475983">
+                <propertyInstance
+                  Id="506bf5f5-a8d1-49c7-a396-779e19a2210e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d28c5faa-69b1-44e2-9e15-4de1018268ae">
+                <propertyInstance
+                  Id="7585df54-991d-462c-8e47-85388bf38e5a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="33a6bf04-46f7-434b-849f-7716e1ade951"
+            name="CreateValueAddedTaxCalculator"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0713d6d7-a2a3-4d5c-b3d4-aa542f6970a7"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.CreationalPatterns.AbstractFactoryPattern Type%3DITaxCalculatorFactory Member%3DCreateValueAddedTaxCalculator"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="71769605-3e92-4569-85c9-db02a971a347"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a23ef873-d775-4f4e-ae50-fc2aa9b8cf6f">
+                    <propertyInstance
+                      Id="a7dd6c6f-5d83-4e9b-8a99-55400dad07ff"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21e9b26c-1c4d-462b-87e4-e73bd4f45198">
+                    <propertyInstance
+                      Id="09477da6-4468-43fd-8844-8de3410437de"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d0c9cb11-d2cc-4c05-a7fc-da7a97b74451">
+                    <propertyInstance
+                      Id="fc5dc8d2-dc02-4f31-90db-4661a583e593"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9cddb9d-a4ea-4264-86e0-03cf19cb5015">
+                    <propertyInstance
+                      Id="c09d0945-1bbb-43ea-8130-d484d557be91"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="715116d3-6fcd-416e-acb3-b5c5d6e1ac68">
+                    <propertyInstance
+                      Id="beb8ceb9-f6ad-4708-81c9-63ddc86e1097"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="06bb309b-822b-4c8a-b921-0bd1ff023b18">
+                    <propertyInstance
+                      Id="b3c45dc1-187f-4705-9015-2f083d06bc78"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3f17430b-e172-4511-b360-c8cf9a90c127"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="889ec590-60c0-425f-85d7-a3764faffc98"
+                      LastKnownName="IValueAddedTaxCalculator"
+                      LastKnownLocation="Package_1808.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ab18d4a7-9598-46f8-991e-f4e19dc4b4d6"
+        name="EnglandValueAddedTaxCalculator"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="9daf02b0-2663-4301-bd95-ccee3c191f4c"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.CreationalPatterns.AbstractFactoryPattern Type%3DEnglandValueAddedTaxCalculator"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="207ad00a-ab3c-4dd2-ad6c-760337873a07"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ff73db3c-cbfc-415f-8c68-52209fbcd3ef">
+                <propertyInstance
+                  Id="aff924ab-2fb2-467a-9585-649a96ac218d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="688b3e5f-888c-4bb8-9426-0050b0cef4f5">
+                <propertyInstance
+                  Id="562823b7-6e4a-4672-8fd2-6a246ce07d2a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5dd66173-20db-471c-9fc2-f2f3ed926350">
+                <propertyInstance
+                  Id="49379090-eea8-447c-af34-c21cb416da10"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e0bdeb2f-9a6d-4a93-b0ab-5d437e548a34">
+                <propertyInstance
+                  Id="fd484e29-20aa-4852-b5f5-e294f72534d4"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="001edee3-c941-4cff-a005-c2006e204b02">
+                <propertyInstance
+                  Id="686e2cf6-eac2-4fdf-b388-91bb5d27a376"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="ba57f123-c6f8-48e9-bad4-256e60102340">
+            <interfaceMoniker
+              Id="889ec590-60c0-425f-85d7-a3764faffc98"
+              LastKnownName="IValueAddedTaxCalculator"
+              LastKnownLocation="Package_1808.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="35ee3db8-480e-422c-98bb-e00e1adf3b1c"
+            name="EnglandValueAddedTaxCalculator"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="76ad6a77-be31-4336-ab4c-5f055015a761"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.CreationalPatterns.AbstractFactoryPattern Type%3DEnglandValueAddedTaxCalculator Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="44c8c15a-168d-484e-9681-b165c2436220"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3cfb65d5-2073-4d43-9dfc-0ee6a7336a3e">
+                    <propertyInstance
+                      Id="69b32e14-7ba9-4d19-b880-34379c6a9ad8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48bbb78a-4fff-453d-a874-e636dfddb89c">
+                    <propertyInstance
+                      Id="34daeb07-3843-422a-be6a-f7b40a79150d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac2b8e86-ae9d-4965-9360-547abf88509f">
+                    <propertyInstance
+                      Id="7f6e509e-674a-4dbd-bcde-02d738889f12"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d209b97-e1b9-4e94-9500-63c5848414d3">
+                    <propertyInstance
+                      Id="ac81c2cb-2752-4874-a6f2-76bcfc0b9efe"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d851dcb6-fbfb-4bdf-b80e-d93dae8d8a0f">
+                    <propertyInstance
+                      Id="af9401fc-f6b2-425d-a5c0-88c22e41749d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee1fc138-8d56-423c-a7ae-6c4dbd8e6a46">
+                    <propertyInstance
+                      Id="8d0e3207-82d4-4ccb-9d1e-581cd1585afc"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="4b56ed93-174f-4373-97f9-3f2203934530"
+            name="CalculateGrossPrice"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="47c2a58d-16bd-49e7-a3d3-a504509c9bf5"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.CreationalPatterns.AbstractFactoryPattern Type%3DEnglandValueAddedTaxCalculator Member%3D(Name%3DCalculateGrossPrice OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDecimal)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f96fb352-2b0d-497c-887a-aa6a6feb6096"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e13fdd40-c3f4-44a8-8bc0-af57448c42be">
+                    <propertyInstance
+                      Id="adb36209-b490-49f4-b1c6-efa67a6c46e6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3aca0c90-9a3a-4237-bd46-0b1c6c9395cf">
+                    <propertyInstance
+                      Id="6372d005-b3cf-4c5d-a928-0b42e736d37f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf5b7e6b-1a72-4641-824c-fe4266558d70">
+                    <propertyInstance
+                      Id="fa85e8b3-0c79-4c9a-874d-3d1d810cdd3d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8d6c14c5-1ce6-4774-b286-407e3053703d">
+                    <propertyInstance
+                      Id="985d95da-3555-4a39-96e6-e98c37b01492"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8e33cb7d-680e-4d62-8a78-97a3492e2774">
+                    <propertyInstance
+                      Id="a6c7b7a6-433e-45df-816b-c45ab2f1fad0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b1149d7-38a4-4b57-a61f-ab6fb9a64207">
+                    <propertyInstance
+                      Id="a8e970df-5945-4fa7-ab99-02de2bebad6a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2beb89ad-05ae-4ea2-aa71-9b5665f93fd5"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="cdb931f9-db74-4f6f-97d1-2ed7efb13908"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package4_1107.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c0fbcce9-2815-4bd1-b442-1a9fbdc45bd2"
+                  name="netPrice"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="131419cd-cc24-4d10-aad3-8c9bc2088a02"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.CreationalPatterns.AbstractFactoryPattern Type%3DEnglandValueAddedTaxCalculator Member%3D(Name%3DCalculateGrossPrice OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDecimal)]) ParameterIdentifier%3DnetPrice"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="cdb931f9-db74-4f6f-97d1-2ed7efb13908"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package4_1107.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="fd7f7c1b-3b0a-4715-9dc0-92ab07bb707a"
+        name="GermanyTaxCalculatorFactory"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="4e2e06c2-b463-463f-881e-82ad192dd26a"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.CreationalPatterns.AbstractFactoryPattern Type%3DGermanyTaxCalculatorFactory"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="0d917ae0-dfac-4f0d-bfe9-af98a70332ec"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1749829c-918c-4f6a-9e46-c19c3bc9a70d">
+                <propertyInstance
+                  Id="fe790c18-d9a2-4025-9b27-28ab39a899ad"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="15391d14-7b4e-42f6-96c7-a420fb8c7b7c">
+                <propertyInstance
+                  Id="c5fd8be7-dacf-4002-8d72-84453a3dcddc"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4dc37b51-e543-479b-9b36-8ff7b5f8a3ab">
+                <propertyInstance
+                  Id="bb4e065e-e086-4dd8-9eae-380b658e6cf0"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="61c7fafa-8722-4564-92aa-b0bc6d391bd9">
+                <propertyInstance
+                  Id="084a3932-f17c-40f8-80ab-d399b00f8de4"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5c9cdc42-4a06-4d09-8639-ddef74ac880d">
+                <propertyInstance
+                  Id="1e5f2b55-6c01-4c0b-92bb-2d943007bc1b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="77ed2814-3f2d-4ff8-a3eb-8a71331bc746">
+            <interfaceMoniker
+              Id="06c51f18-154b-4b98-8751-aad82c17284d"
+              LastKnownName="ITaxCalculatorFactory"
+              LastKnownLocation="Package_1808.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="af02c8b2-507b-47aa-9833-7b077703a7f8"
+            name="GermanyTaxCalculatorFactory"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="bfc541fd-b5d0-4533-b1d7-97f01789803f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.CreationalPatterns.AbstractFactoryPattern Type%3DGermanyTaxCalculatorFactory Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="aa0cee74-7520-46e5-9dfa-4b2b64c9365f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c21f4a47-5f77-48e4-9c94-358b79034934">
+                    <propertyInstance
+                      Id="ae7884f1-04db-4d63-a164-4e7a36c3db28"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78b83468-2e99-4a1c-bd77-0675bab88e97">
+                    <propertyInstance
+                      Id="8b5a4194-1b6d-4baa-96ac-22be0956f0f0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b6cd553-d2c4-426b-858b-96c6c8d3d244">
+                    <propertyInstance
+                      Id="ea00bc45-1843-4bef-ae8e-666dc2ffdf0f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f322c83-b98b-42da-9b4d-e8b2383d9497">
+                    <propertyInstance
+                      Id="f62b5e40-d4fa-4f3f-91ad-62924f6ca211"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9fc24a09-cc45-48fb-8abd-5d23ca23d651">
+                    <propertyInstance
+                      Id="565dc650-0512-48b1-b815-8c35edd3e703"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="860d6e40-6901-4b73-98e5-e16635a72524">
+                    <propertyInstance
+                      Id="b1c752c1-6dc5-4126-948b-e2bb2b1dc559"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="8628a2fd-f455-4bab-a8c0-106a5ef0bf8d"
+            name="CreateValueAddedTaxCalculator"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1d27fe4e-6095-4fe7-a1a6-ea2dcb825480"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.CreationalPatterns.AbstractFactoryPattern Type%3DGermanyTaxCalculatorFactory Member%3DCreateValueAddedTaxCalculator"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="13be1d2d-ce50-42a6-afe7-f5a802f9909a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f81aec8c-4461-4e24-855c-23ed8c98852b">
+                    <propertyInstance
+                      Id="168e9be3-fd94-4ec7-8831-958a69166cf3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2b0bddc-e0a1-4a20-b12c-052b9db22e93">
+                    <propertyInstance
+                      Id="6fcd8087-b989-465f-bff1-ed6976397dd9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6b15148-fee8-492f-832a-117180c9930e">
+                    <propertyInstance
+                      Id="0eb47533-4a02-4b6b-a0ef-19a2cb7e0b5c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a7cab143-6246-48b9-ab4c-556ce28e5501">
+                    <propertyInstance
+                      Id="c36f79fd-46a2-4c10-b422-3d9a754e2441"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bcabdf40-3f8d-473d-bf74-5b833975cfe4">
+                    <propertyInstance
+                      Id="5f24bece-133f-423f-b25d-caa66052cc0c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="431d339f-bac2-4a59-85b5-442bb5daec9e">
+                    <propertyInstance
+                      Id="cbe239a6-6735-44e9-9bcf-da903d7a227f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5e373c8a-139b-443b-b052-96eb403b77ad"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="889ec590-60c0-425f-85d7-a3764faffc98"
+                      LastKnownName="IValueAddedTaxCalculator"
+                      LastKnownLocation="Package_1808.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="1035ba18-0182-47d6-9df8-5b697693484d"
+        name="GermanyValueAddedTaxCalculator"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="d38a7de4-da9d-4257-9b9b-3e934cfaa956"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.CreationalPatterns.AbstractFactoryPattern Type%3DGermanyValueAddedTaxCalculator"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b5ee7435-76d6-4a15-86fc-d564d9e2c2e4"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="877c2377-2bf4-4f78-ad66-3387fff06838">
+                <propertyInstance
+                  Id="99606a76-1662-4a0f-98a9-055bdbc66ed6"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a56ec90e-66ed-485b-ab2e-b979fb1aeaf1">
+                <propertyInstance
+                  Id="7f07af78-94e8-44b5-a158-886c431d4dcb"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7ef09d82-b632-456e-94cf-e8bfb06dba96">
+                <propertyInstance
+                  Id="29b4c7c3-9030-43f7-8142-380cf16aef5f"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5cfd99f5-76ab-471d-93d3-08b70a62c21c">
+                <propertyInstance
+                  Id="ce1a4c1a-0d9f-41c8-ba66-0ecfca209fda"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a545f630-1e28-408a-9d4a-5e09dd2fb908">
+                <propertyInstance
+                  Id="f2c32180-1706-453d-9253-e96f2c3336f2"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="e52d190d-86d6-472a-aa47-c7f39756efe5">
+            <interfaceMoniker
+              Id="889ec590-60c0-425f-85d7-a3764faffc98"
+              LastKnownName="IValueAddedTaxCalculator"
+              LastKnownLocation="Package_1808.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="9ca9e79d-77f7-4974-a48a-b4be3195bd42"
+            name="GermanyValueAddedTaxCalculator"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="eb514fc2-91f9-4710-9424-ba63fe32ffb5"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.CreationalPatterns.AbstractFactoryPattern Type%3DGermanyValueAddedTaxCalculator Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8ea8179e-c3ed-4045-994e-c56228485198"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="602ddcf0-3377-455d-80f0-6ed273fc979c">
+                    <propertyInstance
+                      Id="e3ce7523-a6e0-446c-bb05-90588214d966"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf57a430-3e39-4a0f-b95c-13a120a6642e">
+                    <propertyInstance
+                      Id="f4937394-6085-4049-bb91-482f4210916f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="063c6b3a-ba7e-4213-947a-022193d7852e">
+                    <propertyInstance
+                      Id="660e99fe-2f81-41f4-b5a5-70e15c9e9598"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f4f544cf-0821-4346-8648-095df0079343">
+                    <propertyInstance
+                      Id="2221b33c-d49f-44ad-8c1c-17b2fed6047a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e6151050-c58c-4675-a308-c2f5d9a26a43">
+                    <propertyInstance
+                      Id="d024d48f-0a69-431c-b847-a9239122310f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="96e8990e-38f7-46fd-8036-26baac8e207d">
+                    <propertyInstance
+                      Id="5b31168f-8e16-4b7f-b6ae-3faac0adc773"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="1ee03885-dd24-4dd7-9ca1-43eba99270a3"
+            name="CalculateGrossPrice"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ceb50180-1f41-4c6a-bdfc-e37891c99e69"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.CreationalPatterns.AbstractFactoryPattern Type%3DGermanyValueAddedTaxCalculator Member%3D(Name%3DCalculateGrossPrice OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDecimal)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6eb03980-2578-4204-afc4-4c87b822222a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="22cdd169-f899-44d5-b728-e30dbf7a9e6f">
+                    <propertyInstance
+                      Id="c5c5001d-1b4e-4443-aa1e-59abe3631e3f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a05a9a0b-4bdc-45a4-9a2e-fe0e074e87f8">
+                    <propertyInstance
+                      Id="e2092cae-9099-4ef1-978b-cc060c953bb7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2d8c144-8a9e-4a50-8175-f379ebbce2c8">
+                    <propertyInstance
+                      Id="06a0f924-8be8-4811-b1d3-5da885be6854"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="90db2267-d46a-40f5-8496-41d02e40b099">
+                    <propertyInstance
+                      Id="bbc58cdf-3743-4f59-8147-27088cbb2aba"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab0212f2-71af-4b59-bc8a-7b5f1a0efb29">
+                    <propertyInstance
+                      Id="600d757c-91f7-4ef1-bd89-7a00f3b0426a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f8bc9c9-60dc-4504-b451-05b0b6511a07">
+                    <propertyInstance
+                      Id="6de3ceee-b244-4a49-b0ad-f44d3c2d4130"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0e20b563-2acb-4ae5-a148-73c83785fc54"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="cdb931f9-db74-4f6f-97d1-2ed7efb13908"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package4_1107.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="51e09317-c7cd-4907-9888-b16a0e12584c"
+                  name="netPrice"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c37f34f4-c47e-426e-9654-547e1da68b98"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.CreationalPatterns.AbstractFactoryPattern Type%3DGermanyValueAddedTaxCalculator Member%3D(Name%3DCalculateGrossPrice OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDecimal)]) ParameterIdentifier%3DnetPrice"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="cdb931f9-db74-4f6f-97d1-2ed7efb13908"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package4_1107.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

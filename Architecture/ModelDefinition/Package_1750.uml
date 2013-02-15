@@ -23,5 +23,23 @@
         LastKnownName="FactoryMethodPattern"
         LastKnownLocation="Package_2221.uml" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="95ab739b-7bdb-48f5-9c36-d4e217fe8a43"
+        LastKnownName="BuilderPattern"
+        LastKnownLocation="Package_1442.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="379eb26a-8362-45c3-9320-664b82935ced"
+        LastKnownName="PrototypePattern"
+        LastKnownLocation="Package_1622.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="fe914e77-1a64-4b16-abd7-b26b4e4d7d37"
+        LastKnownName="AbstractFactoryPattern"
+        LastKnownLocation="Package_1808.uml" />
+    </packageHasNamedElement>
   </packagedElements>
 </package>

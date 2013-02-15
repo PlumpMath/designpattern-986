@@ -31,7 +31,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,19 +49,31 @@
     <Compile Include="BehavioralPatterns\VisitorPattern\ISyntaxTreeVisitor.cs" />
     <Compile Include="BehavioralPatterns\VisitorPattern\ValueStatement.cs" />
     <Compile Include="BehavioralPatterns\VisitorPattern\VisitResultEventArgs.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactoryPattern\EnglandTaxCalculatorFactory.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactoryPattern\EnglandValueAddedTaxCalculator.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactoryPattern\GermanyTaxCalculatorFactory.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactoryPattern\GermanyValueAddedTaxCalculator.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactoryPattern\ITaxCalculatorFactory.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactoryPattern\IValueAddedTaxCalculator.cs" />
     <Compile Include="CreationalPatterns\BuilderPattern\HtmlNewsBuilder.cs" />
     <Compile Include="CreationalPatterns\BuilderPattern\INewsBuilder.cs" />
     <Compile Include="CreationalPatterns\BuilderPattern\NewsDirector.cs" />
     <Compile Include="CreationalPatterns\BuilderPattern\RssNewsBuilder.cs" />
-    <Compile Include="CreationalPatterns\FactoryMethodPattern\PngImageConverter.cs" />
-    <Compile Include="CreationalPatterns\FactoryMethodPattern\IImageConverter.cs" />
-    <Compile Include="CreationalPatterns\FactoryMethodPattern\GifImageConverter.cs" />
-    <Compile Include="CreationalPatterns\FactoryMethodPattern\ImageConverterFactory.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethodPattern\ConfigurableFactoryMethod\IOrderManagement.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethodPattern\ConfigurableFactoryMethod\Order.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethodPattern\ConfigurableFactoryMethod\OrderSerializerFactory.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethodPattern\ConfigurableFactoryMethod\OrderDataContractSerializer.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethodPattern\ConfigurableFactoryMethod\OrderXmlSerializer.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethodPattern\DynamicFactoryMethod\GifImageConverter.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethodPattern\DynamicFactoryMethod\IImageConverter.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethodPattern\DynamicFactoryMethod\ImageConverterFactory.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethodPattern\DynamicFactoryMethod\PngImageConverter.cs" />
+    <Compile Include="CreationalPatterns\PrototypePattern\Coordinate.cs" />
+    <Compile Include="CreationalPatterns\PrototypePattern\ICloneable.cs" />
     <Compile Include="CreationalPatterns\SingletonPattern\IncrementalCounterSingleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="CreationalPatterns\AbstractFactoryPattern\" />
     <Folder Include="StructuralPatterns\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="AbstractFactory">
+  <logicalClassDesignerModelMoniker Id="d14e01dd-88af-45af-91be-1f6d5e377f24" />
+  <nestedChildShapes>
+    <classShape Id="bcc06958-b569-4632-ae9a-1c7f11ef1fee" absoluteBounds="0.625, 3, 2.125, 1.3479918644825619" hideQualifiedName="true" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="baff45b4-6695-483f-a13f-0865359a83af" LastKnownName="EnglandTaxCalculatorFactory" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="5e2dd864-7177-4950-8476-d9a29a3616ac" absoluteBounds="0.64, 3.5153356393178306, 2.0949999999999998, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="659672b5-8031-4f4e-92d6-9e644e17ec5f" absoluteBounds="0.64, 3.7265075068672497, 2.0949999999999998, 0.521484357615312" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="df6a2ba9-88af-4cda-806b-882376a11b33" absoluteBounds="5.625, 3, 2.25, 1.3479918644825619" hideQualifiedName="true" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="1a2331fd-7038-44a1-ac39-b6d477ce9a55" LastKnownName="EnglandValueAddedTaxCalculator" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="ae3bb1aa-5377-44f8-9138-a107f1db8416" absoluteBounds="5.64, 3.5153356393178306, 2.2199999999999998, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="2e31e201-d336-4804-807c-19da8bcc5560" absoluteBounds="5.64, 3.7265075068672497, 2.2199999999999998, 0.521484357615312" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2ea12504-c2e7-460e-bbf3-c4816c602c21" absoluteBounds="3, 3, 2.125, 1.3479918644825619" hideQualifiedName="true" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="3e311e56-9150-4070-a617-18467a06a617" LastKnownName="GermanyTaxCalculatorFactory" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="7304348f-e12b-4c06-b27c-b477a93a2a0a" absoluteBounds="3.015, 3.5153356393178306, 2.0949999999999998, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="97acb833-e083-4cdb-b6e2-08b7b077b862" absoluteBounds="3.015, 3.7265075068672497, 2.0949999999999998, 0.521484357615312" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9a0c9f70-beaf-4418-b571-179e737f9557" absoluteBounds="8.125, 3, 2.375, 1.3479918644825615" hideQualifiedName="true" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="9bf2f7ef-9fec-4ae8-9f58-0cc3e132c37f" LastKnownName="GermanyValueAddedTaxCalculator" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="3edf40b2-fa39-4e01-94aa-83dc7dd0395c" absoluteBounds="8.14, 3.5153356393178306, 2.3449999999999998, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="cbe5f9cd-6a41-4932-8423-fa5a7ff827c9" absoluteBounds="8.14, 3.7265075068672497, 2.3449999999999998, 0.521484357615312" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <interfaceShape Id="a999f3a0-f02f-4123-b0e2-61f9f4c1c813" absoluteBounds="2, 0.75, 2, 1.250503439108531" hideQualifiedName="true" increaseHeight="0.18800345897674564" customColor="207, 223, 191">
+      <interfaceMoniker Id="a8a3d179-46f0-48f4-a0e5-76fa2e05a6b6" LastKnownName="ITaxCalculatorFactory" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="81c7cf6e-ffbb-45b1-bb41-e6d480cf0116" absoluteBounds="2.015, 1.3280034589767458, 1.9700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="ad1442e6-ce30-4767-b8d9-db9b228d864b" absoluteBounds="2.015, 1.539175326526165, 1.9700000000000002, 0.36132811258236563" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </interfaceShape>
+    <realizationConnector edgePoints="[(1.6875 : 3); (1.6875 : 2.37550343910853); (3 : 2.37550343910853); (3 : 2.00050343910853)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" showAsLollipop="false">
+      <interfaceRealizationMoniker Id="050c90bd-9b14-4a0c-8ef2-543369087c8b" />
+      <relativeChildShapes />
+      <nodes>
+        <classShapeMoniker Id="bcc06958-b569-4632-ae9a-1c7f11ef1fee" />
+        <interfaceShapeMoniker Id="a999f3a0-f02f-4123-b0e2-61f9f4c1c813" />
+      </nodes>
+    </realizationConnector>
+    <realizationConnector edgePoints="[(4.0625 : 3); (4.0625 : 2.37550343910853); (3 : 2.37550343910853); (3 : 2.00050343910853)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" showAsLollipop="false">
+      <interfaceRealizationMoniker Id="6b9e0453-9e58-4e67-b1a5-3b362585b882" />
+      <relativeChildShapes />
+      <nodes>
+        <classShapeMoniker Id="2ea12504-c2e7-460e-bbf3-c4816c602c21" />
+        <interfaceShapeMoniker Id="a999f3a0-f02f-4123-b0e2-61f9f4c1c813" />
+      </nodes>
+    </realizationConnector>
+    <interfaceShape Id="9a08096c-52b8-4e1f-85db-8a4de28d5ed8" absoluteBounds="6.875, 0.75, 2.25, 1.250503439108531" hideQualifiedName="true" increaseHeight="0.18800345897674564" customColor="207, 223, 191">
+      <interfaceMoniker Id="c5eb624b-6176-4b5b-835a-0fa857eababc" LastKnownName="IValueAddedTaxCalculator" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="74944484-8990-4bdf-bfdd-b9ae8ed8305f" absoluteBounds="6.89, 1.3280034589767458, 2.2199999999999998, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="8dab3af5-f7d4-4902-b962-99aa0925d822" absoluteBounds="6.89, 1.539175326526165, 2.2199999999999998, 0.36132811258236563" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </interfaceShape>
+    <realizationConnector edgePoints="[(6.75 : 3); (6.75 : 2.37550343910853); (8 : 2.37550343910853); (8 : 2.00050343910853)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" showAsLollipop="false">
+      <interfaceRealizationMoniker Id="184cc973-6078-46b2-8715-d2b4722402aa" />
+      <relativeChildShapes />
+      <nodes>
+        <classShapeMoniker Id="df6a2ba9-88af-4cda-806b-882376a11b33" />
+        <interfaceShapeMoniker Id="9a08096c-52b8-4e1f-85db-8a4de28d5ed8" />
+      </nodes>
+    </realizationConnector>
+    <realizationConnector edgePoints="[(9.3125 : 3); (9.3125 : 2.37550343910853); (8 : 2.37550343910853); (8 : 2.00050343910853)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" showAsLollipop="false">
+      <interfaceRealizationMoniker Id="547928be-2e0c-41ef-977a-4b7060c2c3f9" />
+      <relativeChildShapes />
+      <nodes>
+        <classShapeMoniker Id="9a0c9f70-beaf-4418-b571-179e737f9557" />
+        <interfaceShapeMoniker Id="9a08096c-52b8-4e1f-85db-8a4de28d5ed8" />
+      </nodes>
+    </realizationConnector>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>
