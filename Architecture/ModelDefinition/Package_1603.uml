@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="6aba2914-8d3d-4246-a927-7740b73da6b2"
+  name="FacadePattern"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="bc070fc7-050a-42e1-883c-1dc7e3724683"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DTSTune.DesignPattern.StructuralPatterns.FacadePattern"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="2a089f2d-fd6b-4f28-85d2-b25a163ac068"
+        name="OrderApplicationServiceFacade"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e211ebdd-6ebb-4798-9966-7314de5b3990"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.StructuralPatterns.FacadePattern Type%3DOrderApplicationServiceFacade"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="f9a1f1eb-f09a-43cd-968b-96a886569285"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7728407e-d93e-4a4c-b1d5-cc9ec9bb0294">
+                <propertyInstance
+                  Id="c0139aaa-ecc4-41b4-8e98-d2ef3697d71e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f393c76c-c236-4a00-8af6-c2e432e96e0b">
+                <propertyInstance
+                  Id="e7eecaed-80fb-44ed-96fa-0cbbb1b76cb2"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9ea74e8b-ac75-46b2-989b-51933f1130f8">
+                <propertyInstance
+                  Id="be624e5e-2a34-491a-b26b-21771d328694"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="af6d0de4-899c-429f-b5d5-6250b4829852">
+                <propertyInstance
+                  Id="8a891c37-937d-4ff8-9b33-1e161e549309"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f3eff986-1030-4585-a414-3b5d732f9d83">
+                <propertyInstance
+                  Id="9961cd3e-666c-44f2-ab10-d98b7777b7f5"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="4bdc211e-714f-41d9-a295-b075fdb2578c"
+            isDerived="false"
+            sourceEndRoleName="OrderApplicationServiceFacade"
+            targetEndRoleName="PriceCalculation"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="cecaedaf-0449-46ec-b2bd-769baa0c4906"
+              LastKnownName="PriceCalculation"
+              LastKnownLocation="Package2_1603.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2052af73-260e-4a72-a474-975e6f3e92b1"
+                  name="OrderApplicationServiceFacade"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="af2b537f-fb13-4d34-a651-1d210acf5ad3"
+                  name="PriceCalculation"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="67cd2571-01f3-4aab-9669-dc7a0053430d"
+            isDerived="false"
+            sourceEndRoleName="OrderApplicationServiceFacade"
+            targetEndRoleName="OrderValidator"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="8aab71b7-6870-46f3-835f-0006bd24ae2c"
+              LastKnownName="OrderValidator"
+              LastKnownLocation="Package1_1603.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3f13760f-a2d0-4aab-bda6-c8dad18d4f5d"
+                  name="OrderApplicationServiceFacade"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="509dcaf1-d046-4279-87b3-26d3885471da"
+                  name="OrderValidator"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="9b6d20ff-ef0e-4636-9259-ec782260b998"
+            isDerived="false"
+            sourceEndRoleName="OrderApplicationServiceFacade"
+            targetEndRoleName="OrderStorage"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="281f2577-2170-4c01-83f7-9b81fee749ab"
+              LastKnownName="OrderStorage"
+              LastKnownLocation="Package1_1603.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="95fc6540-ab4f-4485-be4a-0c76fb018764"
+                  name="OrderApplicationServiceFacade"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c0e1c3da-50d8-4810-b12f-17455e15120d"
+                  name="OrderStorage"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="12813183-93e7-4a03-86c7-b0338eaf5a8d"
+            isDerived="false"
+            sourceEndRoleName="OrderApplicationServiceFacade"
+            targetEndRoleName="Order"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="05e37199-316d-4f99-9857-3a282591c572"
+              LastKnownName="Order"
+              LastKnownLocation="Package1_1603.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3c3d9455-92f7-4b42-b568-4f43c6758695"
+                  name="OrderApplicationServiceFacade"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="606a153e-447f-489e-95c4-ddcd8348edbc"
+                  name="Order"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedOperationsInternal>
+          <operation
+            Id="81dbb341-0c9b-405b-8e12-9f7a3ff3de39"
+            name="OrderApplicationServiceFacade"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7e27f087-6917-4431-8903-60a29ebaef44"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.StructuralPatterns.FacadePattern Type%3DOrderApplicationServiceFacade Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="34c41f99-1a2d-40bf-a315-4ce8df9d557a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ade1cf67-0f98-49c6-9407-7cc8f1589cdc">
+                    <propertyInstance
+                      Id="a8897ca7-9d61-4794-affd-6036d29531e8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6cb53186-34ec-44e4-9829-3767e627ec56">
+                    <propertyInstance
+                      Id="71da5e5e-2b7c-4282-ae24-21cc2c1db73d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fd9be038-f81a-4085-bc05-e0cc06c3709a">
+                    <propertyInstance
+                      Id="8ebed027-917e-4232-a9b0-3f0efea818ad"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a09e3654-b84b-417a-b420-5ba9f07c4a9e">
+                    <propertyInstance
+                      Id="b060bf21-f5b3-4543-8b41-0a628dd95eb4"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8add072f-ae1b-4260-9fd6-d1de47a4c8a2">
+                    <propertyInstance
+                      Id="fb934122-bf81-4b24-838a-1eb0cc506933"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9c67484-9390-4547-8e96-2dc138fd7bde">
+                    <propertyInstance
+                      Id="e300587a-17b1-4c65-8454-a369e6a116a4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="3be7a05a-5037-4297-9ee5-d46ccf16149b"
+            name="PlaceOrder"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9ed6820e-1def-4b15-9397-74fd8981effe"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.StructuralPatterns.FacadePattern Type%3DOrderApplicationServiceFacade Member%3D(Name%3DPlaceOrder OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a6945ebe-40ed-4fbf-99d7-e2c6b039ae0c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5fdfebc-8dda-475a-be0b-cd00e64135cb">
+                    <propertyInstance
+                      Id="dca4228c-0128-4064-8583-85ed0146c6b2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="121cb0a2-00d5-455a-bb41-201ecc163d3e">
+                    <propertyInstance
+                      Id="fa39a948-dc21-41d1-9e01-8efe4a2e3fa0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4ad12e2-aab8-46ec-8ea2-713a187c1bc0">
+                    <propertyInstance
+                      Id="7ebb5596-1575-4b43-8732-11956322a055"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e8d689f4-950d-4eec-8b66-296e2310ed4e">
+                    <propertyInstance
+                      Id="17074b8e-9b99-46dc-98d3-3a34d976d78e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57db91ab-9062-49c5-bf46-94ee4234ba57">
+                    <propertyInstance
+                      Id="de43ff90-4411-4283-ba83-3406352024b5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="449873db-1b65-42b0-a5b9-aef7949046f7">
+                    <propertyInstance
+                      Id="9b6d52d7-da69-47ec-aec2-75a0dea8dfe5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6cfa1ce0-7fb3-4a07-b143-3e9ef92b5750"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="Architecture.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="27f9310d-6cb4-4bfa-9e29-e7532cda47a6"
+                  name="articleId"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="09d9011b-2caa-4549-8a22-4bd66886342c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.StructuralPatterns.FacadePattern Type%3DOrderApplicationServiceFacade Member%3D(Name%3DPlaceOrder OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DarticleId"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Architecture.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="937ee8bd-0b10-4850-b74e-2f8fa9887e7b"
+                  name="quantity"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f8f79ca1-c442-43a5-967b-0403103724e5"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.StructuralPatterns.FacadePattern Type%3DOrderApplicationServiceFacade Member%3D(Name%3DPlaceOrder OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dquantity"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="Architecture.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="fd4e8dea-1bbb-41e3-8de6-b0a6e817a5f5"
+        LastKnownName="OrderManagement"
+        LastKnownLocation="Package1_1603.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="f065ca07-a461-41b3-bf9a-d21dac270a80"
+        LastKnownName="PriceManagement"
+        LastKnownLocation="Package2_1603.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

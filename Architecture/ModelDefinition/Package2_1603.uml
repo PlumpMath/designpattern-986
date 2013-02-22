@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="f065ca07-a461-41b3-bf9a-d21dac270a80"
+  name="PriceManagement"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="c9bb010f-4ed5-4eb9-a660-ee60c21be0f0"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DTSTune.DesignPattern.StructuralPatterns.FacadePattern.PriceManagement"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="cecaedaf-0449-46ec-b2bd-769baa0c4906"
+        name="PriceCalculation"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e3e0ac46-fdaf-4cff-8786-6a0e6c6b7141"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.StructuralPatterns.FacadePattern.PriceManagement Type%3DPriceCalculation"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="92901802-3a46-4fda-be82-9ab45ff9a2a7"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="851a1e8b-6bdd-4094-ab8f-109f5120118d">
+                <propertyInstance
+                  Id="ee6af4ed-ecc3-4172-bf96-340e0af08712"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="40fe42dc-a1b4-4a66-8674-567cba1f0098">
+                <propertyInstance
+                  Id="d7984a4e-09cb-427a-9f05-9909f0681116"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f683a4c0-c3b7-40d2-953d-05c9643040a2">
+                <propertyInstance
+                  Id="22203db1-2424-414c-81ce-ebe66d814448"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="14c24ba1-0a95-4886-9250-2249c82a8cdc">
+                <propertyInstance
+                  Id="6f26c4a6-e243-42e5-a843-a70214526ba3"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="44d4e214-89cc-43b9-bac7-f4248fc8e6b9">
+                <propertyInstance
+                  Id="91ed1064-c8e5-4191-8f6e-38e7d955009a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="85ef72e3-93c5-4df7-ab82-62381478905a"
+            name="_priceMap"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8a19cf8d-cef8-42f3-82a7-44fc539df847"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.StructuralPatterns.FacadePattern.PriceManagement Type%3DPriceCalculation Member%3D_priceMap"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4c49f0e0-e011-4342-a85b-1a623a8dd5b1"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00e3aa4b-c534-4847-88b8-bef0a0a0906a">
+                    <propertyInstance
+                      Id="2f1831bc-51b4-4419-93dd-99e91a173114"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="47d22d26-d189-4cd0-8fa0-77767cb6d605">
+                    <propertyInstance
+                      Id="7b47bc9b-e189-44f1-a25e-ac034d7ea9be"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2219abc5-29ec-4575-afdd-117347440304">
+                    <propertyInstance
+                      Id="0df977eb-16bd-41e5-a2f2-218c1cd05b82"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ffce99ee-8da9-400d-9ae4-771805df2d82">
+                    <propertyInstance
+                      Id="c112c1b1-18f9-403b-bfd0-bbfa4b8c735e"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4acc851b-d716-4ed1-ad86-9afec98075c2">
+                    <propertyInstance
+                      Id="40c81703-aad9-4924-9413-d77793a12315"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="23e53f01-c070-44c4-aa25-449710c2d1fe"
+                LastKnownName="Dictionary&lt;String‎, Decimal‎&gt;"
+                LastKnownLocation="Package6_1107.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="5b586434-326e-4762-9387-80d08380677b"
+            name="PriceCalculation"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0c4836cb-aff0-4ba4-bd0c-715cbaaa258e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.StructuralPatterns.FacadePattern.PriceManagement Type%3DPriceCalculation Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cd69b945-ae98-4543-a12d-1874bb7bac88"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fcef7504-67a2-492b-abb0-a73b6061a8ca">
+                    <propertyInstance
+                      Id="6190a03a-5f8b-4831-93a1-1344c8d1450b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b428789c-8d0c-4381-aa6f-6b1a2c4650dc">
+                    <propertyInstance
+                      Id="776056b0-d3ae-4ce3-88c3-f88425569b20"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a443d0c-fd6c-45c1-b252-6c18cd9caa7a">
+                    <propertyInstance
+                      Id="0e3ba569-71dc-4d51-8988-e33f003bcc90"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0aed9158-dbbe-48e8-824a-21e623e71b6b">
+                    <propertyInstance
+                      Id="9c369e6b-c3fb-4d1a-b3fa-5e69c8fde8dc"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="add01aa9-5d81-42ac-9bff-9914c25a8044">
+                    <propertyInstance
+                      Id="1f59ba2a-2068-4006-af43-3acee678a6f8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="de8782df-6151-4570-9598-94bfab833cb5">
+                    <propertyInstance
+                      Id="0bbfea93-e22c-4433-a191-73998aee9963"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="632ebcf6-f6ed-49d7-868b-d6484a35a5d0"
+            name="CalculatePrice"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a99d0287-75a0-4679-89b1-f2607cdc44c0"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.StructuralPatterns.FacadePattern.PriceManagement Type%3DPriceCalculation Member%3D(Name%3DCalculatePrice OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="310a0b07-54ae-480d-abf3-57a5c7f03d8c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c12432ca-d147-4c56-bbb7-4ca87856848f">
+                    <propertyInstance
+                      Id="ade2c906-4c51-4707-aa2e-b7499914e5cd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f7d0b9fd-aa9b-4071-b5f0-93af901ad042">
+                    <propertyInstance
+                      Id="c19b8c83-6a7a-41a9-b699-a337ca91ae1c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d779c87d-0862-4b11-a148-6b65885b3db8">
+                    <propertyInstance
+                      Id="a30a337d-4922-4626-bb45-a8bf50320659"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ab4771a-e658-4213-8906-7f81c4066da4">
+                    <propertyInstance
+                      Id="6ee246ff-793b-4252-b885-8564ca0ec85d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6009d113-a1c8-41a0-988f-2a6f18cb0f81">
+                    <propertyInstance
+                      Id="f50c8933-93a4-4438-a3fb-4cfea3cc4f12"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1b40d53f-4b86-4277-976f-d26aae26a283">
+                    <propertyInstance
+                      Id="93ffc7df-2d02-4573-a0d9-96e79ba6995c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="99571cbc-7810-454b-bf6c-194164d36586"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="cdb931f9-db74-4f6f-97d1-2ed7efb13908"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package4_1107.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="50a92f07-b42e-4a9f-a787-9d7cc366478a"
+                  name="articleId"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="aa26ed3d-73ac-4c90-b0fa-a6e5a0abf063"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.StructuralPatterns.FacadePattern.PriceManagement Type%3DPriceCalculation Member%3D(Name%3DCalculatePrice OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DarticleId"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Architecture.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1591f367-0c19-4760-be0f-f29fc0bed17c"
+                  name="quantity"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ce03d251-4fd6-479f-965c-0163b52a6cbd"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.StructuralPatterns.FacadePattern.PriceManagement Type%3DPriceCalculation Member%3D(Name%3DCalculatePrice OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dquantity"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="Architecture.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

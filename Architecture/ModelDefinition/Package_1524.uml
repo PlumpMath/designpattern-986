@@ -1,33 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
   dslVersion="1.0.0.0"
-  Id="ae339170-4b09-459f-95c9-23fb51c23353"
-  name="DesignPattern"
+  Id="d8ad0cb5-fe01-4da1-87d8-42aab375b2ec"
+  name="StructuralPatterns"
   visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
   <referencesInternal>
     <reference
-      Id="5baf3284-870c-4bb9-8941-8454320e9568"
-      handle="viewcode://./CodeSchema_Namespace?Namespace%3DTSTune.DesignPattern"
+      Id="22df539f-24f8-424e-b166-49afbfda1f5e"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DTSTune.DesignPattern.StructuralPatterns"
       tag="ViewCode" />
   </referencesInternal>
   <packagedElements>
     <packageHasNamedElement>
       <packageMoniker
-        Id="1d572133-4a8f-4aa2-8e87-4e10110a54b0"
-        LastKnownName="BehavioralPatterns"
-        LastKnownLocation="Package2_1107.uml" />
+        Id="1d24eb4b-f737-412e-b584-396f984d0344"
+        LastKnownName="AdapterPattern"
+        LastKnownLocation="Package1_1524.uml" />
     </packageHasNamedElement>
     <packageHasNamedElement>
       <packageMoniker
-        Id="24800b01-5fad-4c8a-afc0-167d12d19f86"
-        LastKnownName="CreationalPatterns"
-        LastKnownLocation="Package_1750.uml" />
+        Id="6aba2914-8d3d-4246-a927-7740b73da6b2"
+        LastKnownName="FacadePattern"
+        LastKnownLocation="Package_1603.uml" />
     </packageHasNamedElement>
     <packageHasNamedElement>
       <packageMoniker
-        Id="d8ad0cb5-fe01-4da1-87d8-42aab375b2ec"
-        LastKnownName="StructuralPatterns"
-        LastKnownLocation="Package_1524.uml" />
+        Id="662cc18c-5c33-45f4-b32a-50451e9e4044"
+        LastKnownName="BridgePattern"
+        LastKnownLocation="Package_1423.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="e17686ce-a91a-4637-9bf4-24396e2bdb54"
+        LastKnownName="ProxyPattern"
+        LastKnownLocation="Package_1945.uml" />
     </packageHasNamedElement>
   </packagedElements>
 </package>

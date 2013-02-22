@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 11.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2013-02-19T19:46:21" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2013-02-19T19:46:23" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune' -  (Package)" />
+  <Message Timestamp="2013-02-19T19:46:23" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern' -  (Package)" />
+  <Message Timestamp="2013-02-19T19:46:23" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::StructuralPatterns' -  (Package)" />
+  <Message Timestamp="2013-02-19T19:46:23" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::StructuralPatterns::ProxyPattern' -  (Package)" />
+  <Message Timestamp="2013-02-19T19:46:23" Importance="Medium" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::StructuralPatterns::ProxyPattern::IUrlRequest' -  (Interface)" />
+  <Message Timestamp="2013-02-19T19:46:23" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::StructuralPatterns::ProxyPattern::IUrlRequest::GetUrlContent' -  (Operation)" />
+  <Message Timestamp="2013-02-19T19:46:23" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::StructuralPatterns::ProxyPattern::IUrlRequest::GetUrlContent::password' -  (Parameter)" />
+  <Message Timestamp="2013-02-19T19:46:23" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::StructuralPatterns::ProxyPattern::IUrlRequest::GetUrlContent::url' -  (Parameter)" />
+  <Message Timestamp="2013-02-19T19:46:23" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::StructuralPatterns::ProxyPattern::IUrlRequest::GetUrlContent::username' -  (Parameter)" />
+  <Message Timestamp="2013-02-19T19:46:23" Importance="Medium" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::StructuralPatterns::ProxyPattern::ProfilerUrlRequest' -  (Class)" />
+  <Message Timestamp="2013-02-19T19:46:23" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::StructuralPatterns::ProxyPattern::ProfilerUrlRequest::_urlRequest' -  (Property)" />
+  <Message Timestamp="2013-02-19T19:46:23" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::StructuralPatterns::ProxyPattern::ProfilerUrlRequest::GetUrlContent' -  (Operation)" />
+  <Message Timestamp="2013-02-19T19:46:23" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::StructuralPatterns::ProxyPattern::ProfilerUrlRequest::GetUrlContent::password' -  (Parameter)" />
+  <Message Timestamp="2013-02-19T19:46:23" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::StructuralPatterns::ProxyPattern::ProfilerUrlRequest::GetUrlContent::url' -  (Parameter)" />
+  <Message Timestamp="2013-02-19T19:46:23" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::StructuralPatterns::ProxyPattern::ProfilerUrlRequest::GetUrlContent::username' -  (Parameter)" />
+  <Message Timestamp="2013-02-19T19:46:23" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::StructuralPatterns::ProxyPattern::ProfilerUrlRequest::ProfilerUrlRequest' -  (Operation)" />
+  <Message Timestamp="2013-02-19T19:46:23" Importance="Medium" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::StructuralPatterns::ProxyPattern::UrlRequest' -  (Class)" />
+  <Message Timestamp="2013-02-19T19:46:23" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::StructuralPatterns::ProxyPattern::UrlRequest::GetUrlContent' -  (Operation)" />
+  <Message Timestamp="2013-02-19T19:46:23" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::StructuralPatterns::ProxyPattern::UrlRequest::GetUrlContent::password' -  (Parameter)" />
+  <Message Timestamp="2013-02-19T19:46:23" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::StructuralPatterns::ProxyPattern::UrlRequest::GetUrlContent::url' -  (Parameter)" />
+  <Message Timestamp="2013-02-19T19:46:23" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::StructuralPatterns::ProxyPattern::UrlRequest::GetUrlContent::username' -  (Parameter)" />
+  <Message Timestamp="2013-02-19T19:46:23" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Architecture::TSTune::DesignPattern::StructuralPatterns::ProxyPattern::UrlRequest::UrlRequest' -  (Operation)" />
+  <Message Timestamp="2013-02-19T19:46:23" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2013-02-19T19:46:23" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: Architecture::TSTune::DesignPattern::StructuralPatterns::ProxyPattern::UrlRequest to Architecture::TSTune::DesignPattern::StructuralPatterns::ProxyPattern::IUrlRequest (InterfaceRealization)" />
+  <Message Timestamp="2013-02-19T19:46:23" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: Architecture::TSTune::DesignPattern::StructuralPatterns::ProxyPattern::ProfilerUrlRequest to Architecture::TSTune::DesignPattern::StructuralPatterns::ProxyPattern::IUrlRequest (InterfaceRealization)" />
+  <Message Timestamp="2013-02-19T19:46:23" Importance="High" Text="(3) type(s) fully reverse engineered." />
+  <Message Timestamp="2013-02-19T19:46:23" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>
