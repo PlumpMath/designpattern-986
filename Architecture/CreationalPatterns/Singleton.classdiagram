@@ -1,25 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="c4ae8937-50c2-4f26-bff6-90971e6665bb" name="Singleton" linkedPackageId="9bb4d283-7e0b-4b11-9dcc-a75cf234855a" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
-  <profileInstances>
-    <packageHasProfileInstances Id="bcad7419-6536-45aa-aeba-cd1045503187">
-      <profileInstance Id="53957bdd-14b5-4b56-b889-ee2e3f5fea6b" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="bbb7336d-1ab1-4e12-9917-9f797a2ad4fb">
-      <profileInstance Id="b49dd209-0723-416f-8e19-ff1e80892faf" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="45c838cb-31ad-43f5-b223-dec3db07bc8d">
-      <profileInstance Id="752cbbf4-321d-41e1-9959-062aae0298e9" name="CSharpProfile">
-        <elementDefinition Id="aebb29b8-148c-4f23-8e38-71948b0d9a34" />
-      </profileInstance>
-      <elementDefinition Id="631f6b0d-1ee5-41ac-8402-552d7c69c3c2" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <logicalClassDesignerModelHasTypes>
       <class Id="0a8df544-3cbd-4e4a-b94a-eda9ee8d9c1a" name="IncrementalCounterSingleton" isAbstract="false" isLeaf="false" isActiveClass="false">
@@ -557,5 +537,25 @@
   </packagedElements>
   <package Id="9bb4d283-7e0b-4b11-9dcc-a75cf234855a" name="Architecture">
     <elementDefinition Id="517020b2-cdb8-463c-97c6-489e49f5041c" />
+    <profileInstances>
+      <packageHasProfileInstances Id="bcad7419-6536-45aa-aeba-cd1045503187">
+        <profileInstance Id="53957bdd-14b5-4b56-b889-ee2e3f5fea6b" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="bbb7336d-1ab1-4e12-9917-9f797a2ad4fb">
+        <profileInstance Id="b49dd209-0723-416f-8e19-ff1e80892faf" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="45c838cb-31ad-43f5-b223-dec3db07bc8d">
+        <profileInstance Id="752cbbf4-321d-41e1-9959-062aae0298e9" name="CSharpProfile">
+          <elementDefinition Id="aebb29b8-148c-4f23-8e38-71948b0d9a34" />
+        </profileInstance>
+        <elementDefinition Id="631f6b0d-1ee5-41ac-8402-552d7c69c3c2" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </logicalClassDesignerModel>

@@ -4,7 +4,9 @@ using System.Text;
 
 namespace TSTune.DesignPattern.CreationalPatterns.PrototypePattern
 {
-    // ICloneable represents here the prototype
+    /// <summary>
+    /// ICloneable represents here the prototype
+    /// </summary>
     public class Coordinate: ICloneable
     {
         public int X { get; set; }

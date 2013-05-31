@@ -1,25 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="0e14350d-4bfc-47bd-9770-a70851357f7c" name="Builder" linkedPackageId="45edd1a2-d95b-45fe-99fa-1bfb6d2f4dec" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
-  <profileInstances>
-    <packageHasProfileInstances Id="a2b28c15-78c7-4dff-b704-7437a36d933c">
-      <profileInstance Id="1e8f4488-81d2-4fa2-af05-426e9c5389db" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="97c39b3a-c066-4acd-a3a2-7f551cc0255a">
-      <profileInstance Id="5eef7fcf-e554-447c-9ec2-44348c03a66f" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="26e8dd7d-5772-4f47-a6cd-caf81b7a60bf">
-      <profileInstance Id="73d67468-f566-44c7-b5ca-a5edea0e8a55" name="CSharpProfile">
-        <elementDefinition Id="aebb29b8-148c-4f23-8e38-71948b0d9a34" />
-      </profileInstance>
-      <elementDefinition Id="631f6b0d-1ee5-41ac-8402-552d7c69c3c2" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <logicalClassDesignerModelHasTypes>
       <class Id="63045ef1-83ba-4353-a2ed-b77bd7925c02" name="HtmlNewsBuilder" isAbstract="false" isLeaf="false" isActiveClass="false">
@@ -899,6 +879,24 @@
           </stereotypeInstance>
         </appliedStereotypesInternal>
         <elementDefinition Id="7bfaeadc-4502-4fa8-9d01-08eed0c4f6a7" />
+        <targetEnds>
+          <association Id="70d52902-f56f-4511-9fbe-254ff9798aca" isDerived="false" sourceEndRoleName="NewsDirector" targetEndRoleName="INewsBuilder" isLeaf="false" isAbstract="false">
+            <interfaceMoniker Id="3a3e8d97-9252-445e-beeb-e47ca73c218f" LastKnownName="INewsBuilder" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="963c4bfb-c5ec-4e16-9c8a-8ece8b053ff1" name="NewsDirector" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1d9ba948-b8ce-4bc3-a619-44d743bd0c1c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e362eff8-3116-42a0-a916-591e015c9e85" name="INewsBuilder" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="341e41c3-88da-452e-9efa-b49faa00c498" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c913f111-aecb-4dbf-828c-efd4023fed0e" />
+          </association>
+        </targetEnds>
         <ownedOperationsInternal>
           <operation Id="1ad2d382-2cc9-4089-8bf1-b506d3762cab" name="Construct" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <referencesInternal>
@@ -1557,5 +1555,25 @@
   </packagedElements>
   <package Id="45edd1a2-d95b-45fe-99fa-1bfb6d2f4dec" name="Architecture">
     <elementDefinition Id="517020b2-cdb8-463c-97c6-489e49f5041c" />
+    <profileInstances>
+      <packageHasProfileInstances Id="a2b28c15-78c7-4dff-b704-7437a36d933c">
+        <profileInstance Id="1e8f4488-81d2-4fa2-af05-426e9c5389db" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="97c39b3a-c066-4acd-a3a2-7f551cc0255a">
+        <profileInstance Id="5eef7fcf-e554-447c-9ec2-44348c03a66f" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="26e8dd7d-5772-4f47-a6cd-caf81b7a60bf">
+        <profileInstance Id="73d67468-f566-44c7-b5ca-a5edea0e8a55" name="CSharpProfile">
+          <elementDefinition Id="aebb29b8-148c-4f23-8e38-71948b0d9a34" />
+        </profileInstance>
+        <elementDefinition Id="631f6b0d-1ee5-41ac-8402-552d7c69c3c2" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </logicalClassDesignerModel>

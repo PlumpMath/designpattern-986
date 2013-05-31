@@ -1149,6 +1149,47 @@
             </propertyInstances>
           </stereotypeInstance>
         </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="c913f111-aecb-4dbf-828c-efd4023fed0e"
+            isDerived="false"
+            sourceEndRoleName="NewsDirector"
+            targetEndRoleName="INewsBuilder"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="22c127c9-e537-4bbb-b1ac-e622e812e842"
+              LastKnownName="INewsBuilder"
+              LastKnownLocation="Package_1442.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1d9ba948-b8ce-4bc3-a619-44d743bd0c1c"
+                  name="NewsDirector"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="341e41c3-88da-452e-9efa-b49faa00c498"
+                  name="INewsBuilder"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
         <ownedOperationsInternal>
           <operation
             Id="cf3f0d49-f49c-4104-9d7b-9b435a34dabf"

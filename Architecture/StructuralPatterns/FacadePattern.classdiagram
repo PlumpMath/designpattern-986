@@ -1,25 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="7949a0ab-ebe9-43dd-92b6-9546b7bef6e0" name="FacadePattern" linkedPackageId="00619948-b27b-422b-a45b-ec5953597560" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
-  <profileInstances>
-    <packageHasProfileInstances Id="367f3662-94f5-462f-bebb-231b63867211">
-      <profileInstance Id="468554a9-573e-4dd9-89df-dd8a93223a57" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="a120f10c-059e-42e6-ae2a-cc019cff20ee">
-      <profileInstance Id="7c6df00d-1861-418c-86f5-88793524e2ee" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="4185f270-ddf0-4863-b142-eec2569ec7e8">
-      <profileInstance Id="f37bf17c-d266-422a-8d13-78b922dc5ee6" name="CSharpProfile">
-        <elementDefinition Id="aebb29b8-148c-4f23-8e38-71948b0d9a34" />
-      </profileInstance>
-      <elementDefinition Id="631f6b0d-1ee5-41ac-8402-552d7c69c3c2" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <logicalClassDesignerModelHasTypes>
       <class Id="af3cbe81-f4a4-41f8-948e-49794f0028a1" name="OrderApplicationServiceFacade" isAbstract="false" isLeaf="false" isActiveClass="false">
@@ -1114,5 +1094,25 @@
   </packagedElements>
   <package Id="00619948-b27b-422b-a45b-ec5953597560" name="Architecture">
     <elementDefinition Id="517020b2-cdb8-463c-97c6-489e49f5041c" />
+    <profileInstances>
+      <packageHasProfileInstances Id="367f3662-94f5-462f-bebb-231b63867211">
+        <profileInstance Id="468554a9-573e-4dd9-89df-dd8a93223a57" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="a120f10c-059e-42e6-ae2a-cc019cff20ee">
+        <profileInstance Id="7c6df00d-1861-418c-86f5-88793524e2ee" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="4185f270-ddf0-4863-b142-eec2569ec7e8">
+        <profileInstance Id="f37bf17c-d266-422a-8d13-78b922dc5ee6" name="CSharpProfile">
+          <elementDefinition Id="aebb29b8-148c-4f23-8e38-71948b0d9a34" />
+        </profileInstance>
+        <elementDefinition Id="631f6b0d-1ee5-41ac-8402-552d7c69c3c2" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </logicalClassDesignerModel>

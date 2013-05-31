@@ -1035,6 +1035,24 @@
           </stereotypeInstance>
         </appliedStereotypesInternal>
         <elementDefinition Id="a6226f39-c005-4cd1-9d7a-f4ac1b6af166" />
+        <targetEnds>
+          <association Id="36a89fc8-5a91-41da-972b-f78b8c1b10c8" isDerived="false" sourceEndRoleName="ImageConverterFactory" targetEndRoleName="IImageConverter" isLeaf="false" isAbstract="false">
+            <interfaceMoniker Id="6eca8b5b-0f65-480c-9964-d6ee44be7db8" LastKnownName="IImageConverter" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9cffc69a-495b-4e50-bf5d-898ba4298845" name="ImageConverterFactory" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9e5bb789-2e9d-42ff-9a50-44a149cef9f9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a18944de-208f-45a6-85c2-114a7683e210" name="IImageConverter" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4dad9a58-a437-492e-bba9-983cb75dae46" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d59ece31-7bf0-4038-8d86-dabf67eda910" />
+          </association>
+        </targetEnds>
         <ownedOperationsInternal>
           <operation Id="8711c6bc-8bcc-4680-86dc-775f12793168" name="GetImageConverter" isLeaf="false" isStatic="true" isAbstract="false" concurrency="Sequential" isQuery="false">
             <referencesInternal>
