@@ -78,6 +78,7 @@
     <Compile Include="StructuralPatterns\BridgePattern\Cart.cs" />
     <Compile Include="StructuralPatterns\BridgePattern\Customer.cs" />
     <Compile Include="StructuralPatterns\BridgePattern\ICustomer.cs" />
+    <Compile Include="StructuralPatterns\DecoratorPattern\ThrottledReadStream.cs" />
     <Compile Include="StructuralPatterns\FacadePattern\OrderManagement\Order.cs" />
     <Compile Include="StructuralPatterns\FacadePattern\OrderApplicationServiceFacade.cs" />
     <Compile Include="StructuralPatterns\FacadePattern\OrderManagement\OrderDatabase.cs" />
@@ -87,9 +88,7 @@
     <Compile Include="StructuralPatterns\ProxyPattern\ProfilerUrlRequest.cs" />
     <Compile Include="StructuralPatterns\ProxyPattern\UrlRequest.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="StructuralPatterns\DecoratorPattern\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

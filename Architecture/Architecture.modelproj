@@ -69,6 +69,9 @@
     <Content Include="ModelDefinition\Package1_1603.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ModelDefinition\Package1_1611.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ModelDefinition\Package1_1750.uml">
       <SubType>Content</SubType>
     </Content>
@@ -105,10 +108,19 @@
     <Content Include="ModelDefinition\Package_1442.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ModelDefinition\Package_1506.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ModelDefinition\Package_1524.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_1603.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1611.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1614.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_1622.uml">
@@ -139,6 +151,13 @@
     <Content Include="StructuralPatterns\BridgePattern.classdiagram.layout">
       <SubType>Content</SubType>
       <DependentUpon>StructuralPatterns\BridgePattern.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="StructuralPatterns\DecoratorPattern.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="StructuralPatterns\DecoratorPattern.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>StructuralPatterns\DecoratorPattern.classdiagram</DependentUpon>
     </Content>
     <Content Include="StructuralPatterns\FacadePattern.classdiagram">
       <SubType>Content</SubType>

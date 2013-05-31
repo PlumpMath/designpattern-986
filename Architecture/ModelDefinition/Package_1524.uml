@@ -35,5 +35,11 @@
         LastKnownName="ProxyPattern"
         LastKnownLocation="Package_1945.uml" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="c5e3abea-ee2d-4996-967f-c053fc784b1a"
+        LastKnownName="DecoratorPattern"
+        LastKnownLocation="Package_1506.uml" />
+    </packageHasNamedElement>
   </packagedElements>
 </package>
