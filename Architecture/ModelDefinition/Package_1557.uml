@@ -1,0 +1,1391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="2318a339-7def-4115-97ad-25aef48eb41f"
+  name="StrategyPattern"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="6a219540-1a3b-4a10-86fa-c89faee6d062"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="9f747800-bb60-4d7c-9c43-bb6b7471783f"
+        name="SortStrategySelector"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="6fe75cd2-e990-4009-bc1f-cf621b2ebe27"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DSortStrategySelector GenericParameterCount%3D1)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="756e77fd-903e-4b98-8161-fd43d737e3c9"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dc46a6bf-3817-42c6-b046-5295c3e044ea">
+                <propertyInstance
+                  Id="97c5b47b-ef21-4bbd-9dd9-43271e356387"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a5de0dd7-b476-47e0-b1aa-b6a3d0fcee65">
+                <propertyInstance
+                  Id="dc2f0c8a-6254-47be-87e1-cf418fb69c3e"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d9236653-2932-4463-b560-c50b8e811de3">
+                <propertyInstance
+                  Id="283a2729-ed14-428e-b3eb-d4d3b074ec94"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="99eb7f3d-4028-4575-b409-66f5fed288e9">
+                <propertyInstance
+                  Id="174e61d8-98f3-44c1-a423-2795ddfc53f8"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="508fbab4-6de0-4c2d-82b7-3a1704c16b43">
+                <propertyInstance
+                  Id="be943f91-f6df-4137-85ac-ddc594eca9a2"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="4f10e0b6-f842-49d9-ad85-2046963b3e14"
+            isDerived="false"
+            sourceEndRoleName="SortStrategySelector"
+            targetEndRoleName="SortStrategy"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="8839b73e-d86c-415a-804e-8e7db799bbe3"
+              LastKnownName="ISortStrategy&lt;T‎&gt;"
+              LastKnownLocation="Package_1557.uml" />
+            <description>Property SortStrategy references type ISortStrategy&lt;T‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="27470c59-33b8-4823-bea8-e25d5996da44"
+                  name="SortStrategySelector"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="ba14f8a4-e5a8-4624-990f-820644e83e21"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="48cf7345-b7e3-4842-a823-54be4caa84bc"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="889621ba-03ff-4411-8fb3-a70abd5e34ab"
+                  name="SortStrategy"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="30d568ee-6106-4148-81aa-72e661c702da"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="2d483b08-2dd1-4405-9d37-4c64a384e40f"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="0e010488-fa7a-4e79-a900-71c86e2cea92"
+            isDerived="false"
+            sourceEndRoleName="SortStrategySelector"
+            targetEndRoleName="ISortStrategy"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="faa3d2bc-78e6-4978-8160-c5ab95e34e00"
+              LastKnownName="ISortStrategy"
+              LastKnownLocation="Package_1557.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f229880c-a942-43e8-86a7-66b62a0d5bf5"
+                  name="SortStrategySelector"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Composite"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="747a567e-19f3-46cd-87a5-28c170ec12c4"
+                  name="ISortStrategy"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="true" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedRedefinableTemplateSignatureInternal>
+          <redefinableTemplateSignature
+            Id="24ea572f-caf9-4beb-b646-ec1fdb96a1af"
+            parameters=""
+            name="RedefinableTemplateSignature1"
+            isLeaf="false">
+            <ownedParameters>
+              <classifierTemplateParameter
+                Id="b8005c18-2f02-4ebb-9b49-bd0aea839dd8">
+                <referencesInternal>
+                  <reference
+                    Id="829c6237-e9aa-4487-8931-08a1b67ddf60"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DSortStrategySelector GenericParameterCount%3D1) ParameterIdentifier%3D0"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="f3d91fc1-7c38-419d-857e-35a9e872e02a"
+                    name="T"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+            </ownedParameters>
+          </redefinableTemplateSignature>
+        </ownedRedefinableTemplateSignatureInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="20c401f7-7d34-4a4e-8156-42b547fb491b"
+            name="SortStrategy"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="59bdcd8c-15b8-4c90-ba46-76ceb0a58c91"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DSortStrategySelector GenericParameterCount%3D1) Member%3DSortStrategy"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ae25944e-b906-4ddb-8bf9-527d47c1aaf7"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6da9b461-f3af-4fc3-a899-2304bb2f62a7">
+                    <propertyInstance
+                      Id="3c5b8b19-3f94-4f89-b7ab-3a39c3570b53"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3673028e-8811-41f8-a06f-7fb710bba723">
+                    <propertyInstance
+                      Id="bde160fe-1ff1-40b6-8c82-ec4f24e19978"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="98597734-a41e-450b-9500-73ddf0c190ac">
+                    <propertyInstance
+                      Id="6650eade-4cdd-4800-8c71-6d569189e6f7"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cfedd33f-ba19-4039-a304-374413609d3d">
+                    <propertyInstance
+                      Id="b9bea4e2-ef6a-470e-9a07-d98c80623371"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dd2c5362-5267-43d3-aaae-e09814340a63">
+                    <propertyInstance
+                      Id="a4ecff3b-b67b-4fcb-9d19-20e1e5526875"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="955feae2-8f87-43ca-9d33-a5297efa078b">
+                    <propertyInstance
+                      Id="5c55cc4f-1b0f-4aed-8667-c1b2b4372080"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8569ff19-df41-4156-87e5-50e8aa65cb98">
+                    <propertyInstance
+                      Id="b0343391-18ad-4474-acdf-6b2c91b4dae4"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="8839b73e-d86c-415a-804e-8e7db799bbe3"
+                LastKnownName="ISortStrategy&lt;T‎&gt;"
+                LastKnownLocation="Package_1557.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="6389a38c-db4d-4365-8a7f-19cc307ce635"
+            name="_data"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="6d82002f-852f-4795-a3bd-49fdb20eb92e"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DSortStrategySelector GenericParameterCount%3D1) Member%3D_data"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4a764e7d-6ab3-4996-b807-0d3bc907b9a2"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a54d33b8-461d-44a1-b6da-1f0d08fba91e">
+                    <propertyInstance
+                      Id="d5eed553-9530-48f3-a9a0-65ee89f1d5d3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="01e26f2e-e512-4e79-833b-accff44842a4">
+                    <propertyInstance
+                      Id="abbdb217-ac0d-432d-aa87-7aac6745066b"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e0680150-384f-46e9-ab89-f362d9737693">
+                    <propertyInstance
+                      Id="d0dc7af4-0b8f-4340-9622-916c517c265c"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f826dc2-ac49-4e80-8119-25bec94e0cef">
+                    <propertyInstance
+                      Id="8205aafa-5e50-4722-92f4-e174864e4ebe"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="efbd4af7-f522-4580-910c-ccd5e12fbc31">
+                    <propertyInstance
+                      Id="c161be58-3317-47ab-af76-54ce2659d290"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="e7982589-eb2e-4382-9bd3-4e76c71615b9"
+                LastKnownName="IList&lt;T‎&gt;"
+                LastKnownLocation="Package6_1107.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="0b1a1f93-eb7e-4a3b-93d6-a1cc7d432332"
+            name="SortStrategySelector"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ddbc07ae-484b-4a17-bcb2-caeae7d2b31f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DSortStrategySelector GenericParameterCount%3D1) Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DSortStrategySelector GenericParameterCount%3D1) ParameterIdentifier%3D0)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c8ea1981-9963-4e7f-a721-ba6043d0d784"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e42f3dbd-96e3-4f20-9677-f29c970f3847">
+                    <propertyInstance
+                      Id="87c2dd08-a848-4b7a-8e3b-352807e825f0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f28c725-b8c3-4586-ba11-1f3d1501563e">
+                    <propertyInstance
+                      Id="831e5f4b-3352-4585-a7c4-df067844a667"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc3e2fa1-6901-417d-86d1-40dec30e2e21">
+                    <propertyInstance
+                      Id="c704f380-9bf7-493f-b33b-b512688a3273"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da8cd40f-e0b1-4581-9049-8faac98f4543">
+                    <propertyInstance
+                      Id="a38549e7-e447-4e24-91b1-35db0563e93c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b733559-f64e-461a-ad50-f5c2fada5b7d">
+                    <propertyInstance
+                      Id="75919a18-abcc-4e52-a097-4e86c279bd38"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9dbbfb9c-5d31-4fd0-9d7e-4f2c9866225b">
+                    <propertyInstance
+                      Id="f43e3ca3-1c0f-4387-a9a9-e154e4f556d0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6f552800-bb3f-40f0-962d-99b8730718c3"
+                  name="data"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="58b79c58-cdec-464b-97eb-f0804d0a5128"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DSortStrategySelector GenericParameterCount%3D1) Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DSortStrategySelector GenericParameterCount%3D1) ParameterIdentifier%3D0)]))]) ParameterIdentifier%3Ddata"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="e7982589-eb2e-4382-9bd3-4e76c71615b9"
+                      LastKnownName="IList&lt;T‎&gt;"
+                      LastKnownLocation="Package6_1107.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f69b656b-952f-47b0-9571-270be33b03b7"
+            name="Sort"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="69c3603d-24f8-4f7f-9fbb-6017e5f28512"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DSortStrategySelector GenericParameterCount%3D1) Member%3DSort"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="213f34f1-3029-4897-83a5-cfff28fb0ed6"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="35004d1a-30cc-4bb0-a4d6-d2e9ab0e1089">
+                    <propertyInstance
+                      Id="73350f61-ba40-486e-aa6e-c5e99defa34a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="413d8dde-9c45-49e5-b4e3-e9b7ed1be3d0">
+                    <propertyInstance
+                      Id="26ca9e1e-5734-45ad-a794-753ecab54d99"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed92e26b-c3e3-4939-82f8-a0b6c10fdc08">
+                    <propertyInstance
+                      Id="408658cb-ac3e-48c0-b045-3b8e941eaa37"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e61f2941-853e-47ef-86d7-1e1bbb6b1b6d">
+                    <propertyInstance
+                      Id="186bcdef-43a0-4739-9484-bb2d0f8746d6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="054d722e-e67a-4421-977b-6427a74fcc74">
+                    <propertyInstance
+                      Id="c1098cae-430f-4229-8569-fba6464d3599"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d0234c9b-d888-4d1e-a614-04dcb40dd0eb">
+                    <propertyInstance
+                      Id="01ca9f84-13f1-4d4c-803b-6509e7505890"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="fbd0a1a7-abb3-4f64-8b15-ec86d402ab0d"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="e7982589-eb2e-4382-9bd3-4e76c71615b9"
+                      LastKnownName="IList&lt;T‎&gt;"
+                      LastKnownLocation="Package6_1107.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="eb0a0207-bbf3-49cd-997c-460aba8507bb"
+        name="BubbleSortStrategy"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="d0fa68a0-d207-424b-bbf6-e0ffb4cc44f9"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DBubbleSortStrategy GenericParameterCount%3D1)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="7104621c-1a06-4151-b432-307e0dace469"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="baf8c078-7aac-420a-85eb-58a6f86ff9f7">
+                <propertyInstance
+                  Id="bc957269-f2b2-45b2-a4bd-9526813256bb"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="75e71a12-bfc4-47be-800b-e1737f46994d">
+                <propertyInstance
+                  Id="cd320545-16f4-4777-87a2-1511f637b511"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fa747681-29eb-4137-8efc-adc854cd7f38">
+                <propertyInstance
+                  Id="b80399df-7a54-4952-bcbc-92ddaf4800fc"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a458a9fe-f817-40b3-b4df-662ca7d9f1d8">
+                <propertyInstance
+                  Id="1f36fcd0-9490-4c00-b4a3-ffa42f880847"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7ac4cb82-d284-41de-8ed8-06dfccdd846a">
+                <propertyInstance
+                  Id="e6cafa6b-ebb1-43eb-a689-86b084cdf8b3"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="cd85116d-8488-4903-9da1-37628c57ce1f">
+            <interfaceMoniker
+              Id="8839b73e-d86c-415a-804e-8e7db799bbe3"
+              LastKnownName="ISortStrategy&lt;T‎&gt;"
+              LastKnownLocation="Package_1557.uml" />
+          </interfaceRealization>
+          <interfaceRealization
+            Id="97b9c673-de2a-4cdf-a4bb-257bc85217ee">
+            <interfaceMoniker
+              Id="faa3d2bc-78e6-4978-8160-c5ab95e34e00"
+              LastKnownName="ISortStrategy"
+              LastKnownLocation="Package_1557.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedRedefinableTemplateSignatureInternal>
+          <redefinableTemplateSignature
+            Id="f71026d2-f4e6-4f7c-b5ee-0812f6d9bae9"
+            parameters=""
+            name="RedefinableTemplateSignature1"
+            isLeaf="false">
+            <ownedParameters>
+              <classifierTemplateParameter
+                Id="c541f917-d210-4fb6-b85c-059ac795793c">
+                <referencesInternal>
+                  <reference
+                    Id="2d4ac10c-979a-4a63-8280-4b913e31b7ef"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DBubbleSortStrategy GenericParameterCount%3D1) ParameterIdentifier%3D0"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="ec83eb21-b1de-4b10-9838-6792bf391cec"
+                    name="T"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+            </ownedParameters>
+          </redefinableTemplateSignature>
+        </ownedRedefinableTemplateSignatureInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="080ad844-e37e-481b-981d-1b8d1c7b22ad"
+            name="Sort"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8feadf86-5793-420f-bd32-4cfc008d3231"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DBubbleSortStrategy GenericParameterCount%3D1) Member%3D(Name%3DSort OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DBubbleSortStrategy GenericParameterCount%3D1) ParameterIdentifier%3D0)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2fd45acd-e8c8-423a-a9d0-d1c0b41d18e3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ea0bc9b-404a-474b-be90-631689ad70b9">
+                    <propertyInstance
+                      Id="4fe1f56c-e18f-4e0b-a3ec-a48a04b0a434"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a265750-0d01-42ec-af45-e5d7dbc482d7">
+                    <propertyInstance
+                      Id="c64ab45c-f030-4c85-9090-ad71e61c7357"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5be063c5-39e9-4ad3-9d40-3f07e2e135ee">
+                    <propertyInstance
+                      Id="5380f4ae-2da2-423f-841f-cde60d5c71a6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02263882-6116-4c43-a264-e5ed794f6bfd">
+                    <propertyInstance
+                      Id="3216ff2f-d6cc-46f4-ac8f-397d02109f0f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e40214b-a307-418b-ad6b-59f308be2dbe">
+                    <propertyInstance
+                      Id="ede6e3e8-ac04-4b7e-abf6-3f6c1558937a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d351c7b-abb9-4caf-a14f-2f57834e9a37">
+                    <propertyInstance
+                      Id="f8b30077-ad4a-4556-9017-eba00955eafd"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="247ffcb0-be8a-456e-b618-25b8e59c5d6d"
+                  name="data"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="6ebaa129-adad-4873-8c89-315344415f5e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DBubbleSortStrategy GenericParameterCount%3D1) Member%3D(Name%3DSort OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DBubbleSortStrategy GenericParameterCount%3D1) ParameterIdentifier%3D0)]))]) ParameterIdentifier%3Ddata"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="e7982589-eb2e-4382-9bd3-4e76c71615b9"
+                      LastKnownName="IList&lt;T‎&gt;"
+                      LastKnownLocation="Package6_1107.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f12e4f3b-b375-4ef5-896d-515a929323fe"
+            name="BubbleSortStrategy"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ac2eb756-46b5-4410-b648-326f40d6ba56"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DBubbleSortStrategy GenericParameterCount%3D1) Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d8544361-deef-422c-b7c9-6383f690d1f9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d210531-4f29-4293-bbe1-413e303091af">
+                    <propertyInstance
+                      Id="c38ac951-5d5e-4282-8bc1-90629a4c7431"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="820558c0-570d-4400-9522-01510a597943">
+                    <propertyInstance
+                      Id="38159976-94f2-4da1-a8c5-3a110466aba3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aac55a03-bbc3-472d-ab4e-dc2e64120fc3">
+                    <propertyInstance
+                      Id="cc004d1d-42c0-49bc-ad4d-f3d83e55a4e0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8950e86e-c7ba-406a-a408-1ead6553eff7">
+                    <propertyInstance
+                      Id="168077f3-2874-4977-bb63-dff68e75efeb"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a8437e35-0450-4ecb-8800-4d2b2fce44d2">
+                    <propertyInstance
+                      Id="456fe8ca-ef42-4087-8596-76d69db19b9a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eac8c9c2-2ff7-4a08-8ecf-202546c3a3ab">
+                    <propertyInstance
+                      Id="8319d49c-4596-4e47-a43f-2a71734b2394"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="0760eb7c-1d0c-4bf0-a728-8ef2b0f06e1b"
+        name="QuickSortStrategy"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="db7c2c03-cbb1-4c18-8ce6-2848bf42a18d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DQuickSortStrategy GenericParameterCount%3D1)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="2e97c3f1-fdf3-4b87-bc0a-27aaa2b53448"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e63bdcfd-d321-449c-a5c7-e1e173fbe877">
+                <propertyInstance
+                  Id="dc12c45c-0cd8-4e1c-b799-f9a94a6b6df7"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2884e461-c907-44e7-8ae8-da75b0b9de06">
+                <propertyInstance
+                  Id="65545056-d00e-450a-a821-a4d085074fba"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dfb4e8df-a2ef-4822-890f-bfd98dbb8d39">
+                <propertyInstance
+                  Id="541738f0-fe0d-45c4-b888-292e938c5d80"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="01e1ea65-0bea-420e-b8b6-1998f50b5c0b">
+                <propertyInstance
+                  Id="337e2680-3cce-4e1b-aca0-8c79111aedbe"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a04d9b09-3d96-4e51-961d-524c136f0248">
+                <propertyInstance
+                  Id="4719b8e0-d879-463b-9f5a-e008b8efcca3"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="06c86059-6d38-4133-87db-0fc7dbf68823">
+            <interfaceMoniker
+              Id="8839b73e-d86c-415a-804e-8e7db799bbe3"
+              LastKnownName="ISortStrategy&lt;T‎&gt;"
+              LastKnownLocation="Package_1557.uml" />
+          </interfaceRealization>
+          <interfaceRealization
+            Id="3cc93d74-a021-46cf-b841-619bac0db2a2">
+            <interfaceMoniker
+              Id="faa3d2bc-78e6-4978-8160-c5ab95e34e00"
+              LastKnownName="ISortStrategy"
+              LastKnownLocation="Package_1557.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedRedefinableTemplateSignatureInternal>
+          <redefinableTemplateSignature
+            Id="1c679c8d-144a-4588-9fdd-30984de799b4"
+            parameters=""
+            name="RedefinableTemplateSignature1"
+            isLeaf="false">
+            <ownedParameters>
+              <classifierTemplateParameter
+                Id="97ad8e71-750e-4037-8fc6-6b797d53ec47">
+                <referencesInternal>
+                  <reference
+                    Id="717ed856-7045-423b-8380-61ffa6ba4fce"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DQuickSortStrategy GenericParameterCount%3D1) ParameterIdentifier%3D0"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="2794058f-16cd-4dc2-aefb-d2312af2eccf"
+                    name="T"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+            </ownedParameters>
+          </redefinableTemplateSignature>
+        </ownedRedefinableTemplateSignatureInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="0be0906f-a882-4bd2-ada7-47a7d4365225"
+            name="Sort"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ad341595-d1a1-4630-b2c4-4a00ccf138a6"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DQuickSortStrategy GenericParameterCount%3D1) Member%3D(Name%3DSort OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DQuickSortStrategy GenericParameterCount%3D1) ParameterIdentifier%3D0)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="939c88b2-4cde-4298-b086-f6b9b33c4958"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4489b987-e256-492a-8a98-0e4de8a35a1c">
+                    <propertyInstance
+                      Id="4701960c-7c33-483f-8a4d-7474490a8c84"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a0d1decc-af8e-4f76-bc41-fa633f994a23">
+                    <propertyInstance
+                      Id="27fa48c7-fb01-4e58-8061-8a412706c3a6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7a9c56ea-d601-46d6-ad99-58185ec2c8cf">
+                    <propertyInstance
+                      Id="e1e98ff6-64f0-4be5-a49c-5d77d43b30e3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e8a7a7f7-1d71-4969-8b53-2a0f3fd3fa84">
+                    <propertyInstance
+                      Id="835d3e8f-4879-4507-ab37-e2513a0ef1b0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1213916-643c-4f69-b6d6-6ebb2af49e5e">
+                    <propertyInstance
+                      Id="8af72ef7-7d4a-40c8-a203-a0289c6fe25f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0437abde-cc03-484d-9915-1eb290fbcfa9">
+                    <propertyInstance
+                      Id="aa24f192-50d9-44d4-a063-0ba099a31ac3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b546482a-5a29-4e4a-af4b-99b743b050f6"
+                  name="data"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="467c59d1-a4da-4215-917d-36bd7a7875d7"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DQuickSortStrategy GenericParameterCount%3D1) Member%3D(Name%3DSort OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DQuickSortStrategy GenericParameterCount%3D1) ParameterIdentifier%3D0)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Ddata"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="e7982589-eb2e-4382-9bd3-4e76c71615b9"
+                      LastKnownName="IList&lt;T‎&gt;"
+                      LastKnownLocation="Package6_1107.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2f7157f3-8edb-46c5-9981-2ad6b8652efc"
+                  name="left"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="6e90b1b8-7a51-4599-ab52-822088ac4c09"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DQuickSortStrategy GenericParameterCount%3D1) Member%3D(Name%3DSort OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DQuickSortStrategy GenericParameterCount%3D1) ParameterIdentifier%3D0)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dleft"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="Architecture.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="99c4141f-2d4b-4238-9fc8-a678c241081b"
+                  name="right"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="20efdcb9-1371-483d-843b-aaa1774ae9d2"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DQuickSortStrategy GenericParameterCount%3D1) Member%3D(Name%3DSort OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DQuickSortStrategy GenericParameterCount%3D1) ParameterIdentifier%3D0)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dright"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="Architecture.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f289fb20-aa3a-4471-8832-e650c80268d0"
+            name="Sort"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d8181368-82e9-4539-b568-1edb3faa9854"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DQuickSortStrategy GenericParameterCount%3D1) Member%3D(Name%3DSort OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DQuickSortStrategy GenericParameterCount%3D1) ParameterIdentifier%3D0)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e9c94d92-3862-4902-bfec-31e9645a771e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c362dcb2-5640-43f1-87e0-66810bf82a6d">
+                    <propertyInstance
+                      Id="4591de96-10a0-48e2-87f5-457e0c61711b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf91229a-b4a9-446b-8d0f-afa7dc1c851f">
+                    <propertyInstance
+                      Id="e6498947-3c91-4f37-8a3c-eb7d563811e0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d1d7f53d-564e-469e-8b0f-5d28a6549200">
+                    <propertyInstance
+                      Id="e63e4bf6-bfe3-41ae-8c86-f6cfafc540c4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa1cbed7-2754-4d85-8c0d-075886171b15">
+                    <propertyInstance
+                      Id="0a24bcc1-a180-40c4-8623-e869d92abc74"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="682d1cf6-b74a-4911-be29-1a73f25a2611">
+                    <propertyInstance
+                      Id="30386479-b1a6-4305-919f-20d9aca4d5c4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3851bb59-c0f4-41a1-a989-fa09c8bb5fa3">
+                    <propertyInstance
+                      Id="17f9b9e7-f073-47a9-a193-02272e73d3b3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="08698acf-a520-4b95-8129-2853dad0b9af"
+                  name="data"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="2310659b-51bb-47e1-bbe7-c5def6b86231"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DQuickSortStrategy GenericParameterCount%3D1) Member%3D(Name%3DSort OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DQuickSortStrategy GenericParameterCount%3D1) ParameterIdentifier%3D0)]))]) ParameterIdentifier%3Ddata"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="e7982589-eb2e-4382-9bd3-4e76c71615b9"
+                      LastKnownName="IList&lt;T‎&gt;"
+                      LastKnownLocation="Package6_1107.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="d2439522-b303-494d-adc8-596079d9ad3f"
+            name="QuickSortStrategy"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="387dee45-b486-45f8-be92-f56cfe4404fd"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DQuickSortStrategy GenericParameterCount%3D1) Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c5900111-ab11-45a3-97a3-1a02fc52503b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="24eb32c5-11a8-49c2-8657-c0caabb1498c">
+                    <propertyInstance
+                      Id="b8d771c3-af22-464e-9c64-8dd9d71a2d1b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d70d486b-f04d-4687-884c-a765727779e7">
+                    <propertyInstance
+                      Id="059b6dc8-f759-4d38-b839-5b743d69a8bf"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ddb5803-e965-4c72-91fb-d422efd5561b">
+                    <propertyInstance
+                      Id="7558add4-3bb4-4150-90a0-9fc9dfac500e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78a353ae-6f27-4664-b38d-7716eaaa34c7">
+                    <propertyInstance
+                      Id="ace71d09-b5e4-438f-812b-74d4712bbbda"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6c5d5fb-c256-498e-a62b-1045d4ebb785">
+                    <propertyInstance
+                      Id="268a7658-d590-4eb4-8e53-174393fb7e68"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e36badb3-9513-4d95-951e-160c4921abc6">
+                    <propertyInstance
+                      Id="563cdc57-d481-404f-b9ad-9a2fff137127"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="faa3d2bc-78e6-4978-8160-c5ab95e34e00"
+        name="ISortStrategy"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="b0eeb811-15a8-4528-b44c-f8667e07b99b"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DISortStrategy GenericParameterCount%3D1)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3c78abca-f53e-4b6e-ab45-8f90779871f5"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1fb5f29c-82a1-4b8b-a635-e1bc8c1516fc">
+                <propertyInstance
+                  Id="88fd648c-2302-4f4b-9844-d1f3f6397f56"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="22c2b812-bd86-4906-990b-73a60abc0782">
+                <propertyInstance
+                  Id="108a4173-252e-494e-ab50-c1658cf46bcc"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8ef753a3-5b42-4ba6-b14e-b89d6be6e93f">
+                <propertyInstance
+                  Id="e661f3c2-6135-4447-8818-9aacb14b00f6"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b69a127e-5223-46ea-a554-b32a6638d819">
+                <propertyInstance
+                  Id="a852e866-8aa8-4937-967d-bc1467fda8e6"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedRedefinableTemplateSignatureInternal>
+          <redefinableTemplateSignature
+            Id="066294e3-30af-4a72-b9ef-276713fab744"
+            parameters=""
+            name="RedefinableTemplateSignature1"
+            isLeaf="false">
+            <ownedParameters>
+              <classifierTemplateParameter
+                Id="d9c35f99-074b-4089-bd54-7233a07449be">
+                <referencesInternal>
+                  <reference
+                    Id="f02f9290-b2bb-4cf9-a8c9-69e5e727ed4b"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DISortStrategy GenericParameterCount%3D1) ParameterIdentifier%3D0"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="efad0af7-6a9e-4bcd-aaf3-0675f77fca23"
+                    name="T"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+            </ownedParameters>
+          </redefinableTemplateSignature>
+        </ownedRedefinableTemplateSignatureInternal>
+        <ownedOperations>
+          <operation
+            Id="1534ad94-c4ed-4f38-b21b-d4cba57be2b4"
+            name="Sort"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ff503c04-1a43-4efa-bf52-9b5ed81a8749"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DISortStrategy GenericParameterCount%3D1) Member%3D(Name%3DSort OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DISortStrategy GenericParameterCount%3D1) ParameterIdentifier%3D0)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ff58f8b9-014a-40bd-863b-57a2ea833c70"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f556868b-4909-41c0-a5d7-051b76a29866">
+                    <propertyInstance
+                      Id="6aca03fc-211c-44d7-84cc-14e4dbd51e66"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="95b32939-9115-495b-9aa0-4ab7d68ca008">
+                    <propertyInstance
+                      Id="0db0f5fb-c3c7-48f1-a72b-4c9019ec9285"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="859d95f7-7d0f-44a4-9fc2-9f112532db23">
+                    <propertyInstance
+                      Id="9f51a218-e0a3-46bb-8cb7-838d0f278eec"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e88a3705-b9cd-494b-8643-f428a324af7c">
+                    <propertyInstance
+                      Id="55815bea-26c3-41cb-9bb0-a5f0582fa66e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b0e7905-6887-479d-890f-5457d335c4dc">
+                    <propertyInstance
+                      Id="5707a3a8-0cc0-43cc-bc8d-8081113c8c36"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a548cd8-ac29-46b1-97fe-034390a119c1">
+                    <propertyInstance
+                      Id="49b9f87d-cf74-46f1-8633-051f3cd12d32"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2ee2f820-7e49-410e-8ebf-e8c78873781c"
+                  name="data"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="7849fb7c-7362-4c53-8f24-4e3af3fac124"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DISortStrategy GenericParameterCount%3D1) Member%3D(Name%3DSort OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FDevelopment%2Fdesignpattern%2FDesignPattern%2Fbin%2FDebug%2FTSTune.DesignPattern.dll Namespace%3DTSTune.DesignPattern.BehavioralPatterns.StrategyPattern Type%3D(Name%3DISortStrategy GenericParameterCount%3D1) ParameterIdentifier%3D0)]))]) ParameterIdentifier%3Ddata"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="e7982589-eb2e-4382-9bd3-4e76c71615b9"
+                      LastKnownName="IList&lt;T‎&gt;"
+                      LastKnownLocation="Package6_1107.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="8839b73e-d86c-415a-804e-8e7db799bbe3"
+        name="ISortStrategy&lt;T‎&gt;"
+        isAbstract="false"
+        isLeaf="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="83a85c36-8214-46bd-9fb9-7fa2fc960e65"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1787adba-089a-42a3-9954-6a745fdf47ff">
+                <propertyInstance
+                  Id="b0903dc0-64ce-45d6-8b2b-e1192230057c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="51527d4a-0cba-4e92-9d39-bcc2c04a4c0c">
+                <propertyInstance
+                  Id="f83f3ac7-bd87-482e-a9fd-aa267cd2cc98"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="36469c7b-6574-48d5-a9e1-afdc6f351eda">
+                <propertyInstance
+                  Id="cee30373-4928-4fcd-a4ae-667d9d2ececd"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="26e26434-01b4-401b-94ab-81d6e6bdecb5">
+                <propertyInstance
+                  Id="d57f7c09-ce56-4970-af34-d7bf0e421adc"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <signatures>
+          <templateBinding
+            Id="b365915b-04c6-4b30-afa2-1cde0db35406">
+            <redefinableTemplateSignatureMoniker
+              Id="066294e3-30af-4a72-b9ef-276713fab744"
+              LastKnownLocation="Package_1557.uml" />
+            <relationshipOwnedElementsInternal>
+              <templateBindingHasTemplateParameterSubstitution>
+                <templateParameterSubstitution
+                  Id="275dac07-3b80-4422-abad-d5ee70765096">
+                  <actuals>
+                    <classMoniker
+                      Id="2794058f-16cd-4dc2-aefb-d2312af2eccf"
+                      LastKnownName="T"
+                      LastKnownLocation="Package_1557.uml" />
+                  </actuals>
+                  <formal>
+                    <classifierTemplateParameterMoniker
+                      Id="d9c35f99-074b-4089-bd54-7233a07449be"
+                      LastKnownLocation="Package_1557.uml" />
+                  </formal>
+                </templateParameterSubstitution>
+              </templateBindingHasTemplateParameterSubstitution>
+            </relationshipOwnedElementsInternal>
+          </templateBinding>
+        </signatures>
+      </Interface>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

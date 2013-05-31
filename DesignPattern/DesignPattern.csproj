@@ -41,6 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BehavioralPatterns\CommandPattern\ICommand.cs" />
+    <Compile Include="BehavioralPatterns\CommandPattern\MultiplyCommand.cs" />
+    <Compile Include="BehavioralPatterns\CommandPattern\PlusCommand.cs" />
+    <Compile Include="BehavioralPatterns\StrategyPattern\BubbleSortStrategy.cs" />
+    <Compile Include="BehavioralPatterns\StrategyPattern\ISortStrategy.cs" />
+    <Compile Include="BehavioralPatterns\StrategyPattern\QuickSortStrategy.cs" />
+    <Compile Include="BehavioralPatterns\StrategyPattern\SortStrategySelector.cs" />
     <Compile Include="BehavioralPatterns\VisitorPattern\BinaryStatement.cs" />
     <Compile Include="BehavioralPatterns\VisitorPattern\SyntaxTreeIndentVisitor.cs" />
     <Compile Include="BehavioralPatterns\VisitorPattern\SyntaxTreeValueVisitor.cs" />

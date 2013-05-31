@@ -52,6 +52,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="BehavioralPatterns\CommandTest.cs" />
+    <Compile Include="BehavioralPatterns\StrategyTest.cs" />
     <Compile Include="BehavioralPatterns\VisitorTest.cs" />
     <Compile Include="CreationalPatterns\AbstractFactoryTest.cs" />
     <Compile Include="CreationalPatterns\BuilderTest.cs" />

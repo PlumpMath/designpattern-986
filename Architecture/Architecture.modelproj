@@ -22,6 +22,20 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
+    <Content Include="BehavioralPatterns\Command.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="BehavioralPatterns\Command.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>BehavioralPatterns\Command.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="BehavioralPatterns\Strategy.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="BehavioralPatterns\Strategy.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>BehavioralPatterns\Strategy.classdiagram</DependentUpon>
+    </Content>
     <Content Include="CreationalPatterns\AbstractFactory.classdiagram">
       <SubType>Content</SubType>
     </Content>
@@ -111,7 +125,13 @@
     <Content Include="ModelDefinition\Package_1506.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ModelDefinition\Package_1520.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ModelDefinition\Package_1524.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1557.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_1603.uml">
