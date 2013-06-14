@@ -7,10 +7,13 @@ using System.Threading.Tasks;
 
 namespace TSTune.DesignPattern.CreationalPatterns.FactoryMethodPattern.DynamicFactoryMethod
 {
+    /// <summary>
+    /// Interface which represents the basic functionality of an image converter
+    /// </summary>
     public interface IImageConverter
     {
         /// <summary>
-        /// Converters the image
+        /// Converters the image (could be any kind of conversion)
         /// </summary>
         /// <returns>The converted image</returns>
         Stream ConvertImage();

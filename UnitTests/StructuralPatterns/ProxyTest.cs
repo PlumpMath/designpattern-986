@@ -9,9 +9,16 @@ using TSTune.DesignPattern.StructuralPatterns.ProxyPattern;
 
 namespace TSTune.DesignPattern.UnitTests.StructuralPatterns
 {
+    /// <summary>
+    /// Test class for the Proxy Pattern
+    /// </summary>
     [TestClass]
     public class ProxyTest
     {
+        /// <summary>
+        /// Uses the proy ProfilerUrlRequest instead of the the original class and
+        /// checks if the profiler writes the correct output to the console out
+        /// </summary>
         [TestMethod]
         public void UrlRequestCall_ShouldBe_Profiled()
         {

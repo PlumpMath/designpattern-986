@@ -8,9 +8,16 @@ using TSTune.DesignPattern.StructuralPatterns.AdapterPattern;
 
 namespace TSTune.DesignPattern.UnitTests.StructuralPatterns
 {
+    /// <summary>
+    /// Test class for the Adapter Pattern
+    /// </summary>
     [TestClass]
     public class AdapterTest
     {
+        /// <summary>
+        /// Starts the legacy high resolution timer by using the adapter 
+        /// and measures the time it takes to calculate a fibonacci number.
+        /// </summary>
         [TestMethod]
         public void Timer_ShouldReturn_ElapsedTimeInMilliseconds()
         {

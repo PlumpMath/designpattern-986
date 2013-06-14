@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace TSTune.DesignPattern.StructuralPatterns.FacadePattern.PriceManagement
 {
+    /// <summary>
+    /// Price Calculation class which looks up the price in a static dictionary.
+    /// Multiplies the hard-coded price with the given quantity.
+    /// </summary>
     public class PriceCalculation
     {
         private Dictionary<string, decimal> _priceMap = new Dictionary<string, decimal>()
@@ -18,6 +22,12 @@ namespace TSTune.DesignPattern.StructuralPatterns.FacadePattern.PriceManagement
              { "C123", 79.55m }
         };
 
+        /// <summary>
+        /// Calculates the price based on the article id and the quantity
+        /// </summary>
+        /// <param name="articleId">The article id</param>
+        /// <param name="quantity">The quantity</param>
+        /// <returns>The price of the article</returns>
         public decimal CalculatePrice(string articleId, int quantity)
         {
             var result = -1m;

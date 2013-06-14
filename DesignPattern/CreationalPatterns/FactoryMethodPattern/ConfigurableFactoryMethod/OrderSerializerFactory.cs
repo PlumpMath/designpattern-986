@@ -1,17 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Configuration;
 
 namespace TSTune.DesignPattern.CreationalPatterns.FactoryMethodPattern.ConfigurableFactoryMethod
 {
+    /// <summary>
+    /// Class which contains a simple factory method 
+    /// which picks the serializer based on a configuration setting
+    /// </summary>
     public class OrderSerializerFactory
     {
-        public static IOrderManagement GetSerializer()
+        /// <summary>
+        /// This Factory Method hides the implementation details of the actual serializes. 
+        /// It simply returns an interface with a serialize method.
+        /// Based on the AppSettings configuration setting "OrderSerializer" 
+        /// one of the available serializers (xml or data contract) is returned.
+        /// 
+        /// The configuration setting "OrderSerializer" can have two values "XmlSerializer" or "DataContractSerializer". 
+        /// By default the "DataContractSerializer" is taken.
+        /// </summary>
+        /// <returns></returns>
+        public static IOrderSerializer GetSerializer()
         {
-            IOrderManagement result = null;
+            IOrderSerializer result = null;
 
             if (ConfigurationManager.AppSettings["OrderSerializer"] == "XmlSerializer")
             {

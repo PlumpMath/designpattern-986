@@ -20,6 +20,9 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DocumentationFile>bin\Debug\TSTune.DesignPattern.XML</DocumentationFile>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -66,7 +69,7 @@
     <Compile Include="CreationalPatterns\BuilderPattern\INewsBuilder.cs" />
     <Compile Include="CreationalPatterns\BuilderPattern\NewsDirector.cs" />
     <Compile Include="CreationalPatterns\BuilderPattern\RssNewsBuilder.cs" />
-    <Compile Include="CreationalPatterns\FactoryMethodPattern\ConfigurableFactoryMethod\IOrderManagement.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethodPattern\ConfigurableFactoryMethod\IOrderSerializer.cs" />
     <Compile Include="CreationalPatterns\FactoryMethodPattern\ConfigurableFactoryMethod\Order.cs" />
     <Compile Include="CreationalPatterns\FactoryMethodPattern\ConfigurableFactoryMethod\OrderSerializerFactory.cs" />
     <Compile Include="CreationalPatterns\FactoryMethodPattern\ConfigurableFactoryMethod\OrderDataContractSerializer.cs" />
@@ -81,7 +84,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StructuralPatterns\AdapterPattern\HighResolutionTimerAdapter.cs" />
     <Compile Include="StructuralPatterns\AdapterPattern\IHighResolutionTimerAdapter.cs" />
-    <Compile Include="StructuralPatterns\AdapterPattern\LegacyHighResolutionTimer.cs" />
+    <Compile Include="StructuralPatterns\AdapterPattern\LegacyHighResolutionTimerNativeMethods.cs" />
     <Compile Include="StructuralPatterns\BridgePattern\Cart.cs" />
     <Compile Include="StructuralPatterns\BridgePattern\Customer.cs" />
     <Compile Include="StructuralPatterns\BridgePattern\ICustomer.cs" />

@@ -9,13 +9,18 @@ using TSTune.DesignPattern.BehavioralPatterns.CommandPattern;
 namespace TSTune.DesignPattern.UnitTests.BehavioralPatterns
 {
     /// <summary>
-    /// Unit test for the command pattern
+    /// Test class for the Command Pattern
     /// </summary>
     [TestClass]
     public class CommandTest
     {
         private Stack<ICommand<int>> _undoCommands = new Stack<ICommand<int>>();
         
+        /// <summary>
+        /// This test shows how a Do-Undo functionality could be implemented using the command pattern.
+        /// It preserves a stack of commands to remember the history and enable the Undo scenario.
+        /// In this case multiple commands are executed and three plus commands are undone.
+        /// </summary>
         [TestMethod]
         public void PlusCommand_ShouldBe_Undone()
         {

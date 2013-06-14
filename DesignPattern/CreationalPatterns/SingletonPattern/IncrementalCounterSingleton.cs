@@ -9,7 +9,7 @@ namespace TSTune.DesignPattern.CreationalPatterns.SingletonPattern
 {
     /// <summary>
     /// Counter implemented using the Singleton Pattern
-    /// Singleton Pattern: It can also exist one instance of a class
+    /// Singleton Pattern: It can only exist one instance of a class
     /// </summary>
     public class IncrementalCounterSingleton
     {

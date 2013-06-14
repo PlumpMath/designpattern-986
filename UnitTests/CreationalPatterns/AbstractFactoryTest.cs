@@ -9,9 +9,17 @@ using TSTune.DesignPattern.CreationalPatterns.AbstractFactoryPattern;
 
 namespace TSTune.DesignPattern.UnitTests.CreationalPatterns
 {
+    /// <summary>
+    /// Test class for the Abstract Factory Pattern
+    /// </summary>
     [TestClass]
     public class AbstractFactoryTest
     {
+        /// <summary>
+        /// This test shows how the Abstract Factories could be used based on a configuration setting.
+        /// In this case the application setting "TaxCountry" is set to Germany 
+        /// and a 19 percent taxes should be added to the net price.
+        /// </summary>
         [TestMethod]
         public void GermanTaxCalculator_Should_Add19PercentTaxes()
         {

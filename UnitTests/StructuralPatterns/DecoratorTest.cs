@@ -9,11 +9,18 @@ using TSTune.DesignPattern.StructuralPatterns.DecoratorPattern;
 
 namespace TSTune.DesignPattern.UnitTests.StructuralPatterns
 {
+    /// <summary>
+    /// Test class for the decorator pattern
+    /// </summary>
     [TestClass]
     public class DecoratorTest
     {
         private bool _throttledLimitReached = false;
 
+        /// <summary>
+        /// This test takes the implementation for throttled read streams 
+        /// and decorates a simple memory stream.
+        /// </summary>
         [TestMethod]
         public void ThrottleLimit_ShouldBe_Reached()
         {
@@ -35,7 +42,7 @@ namespace TSTune.DesignPattern.UnitTests.StructuralPatterns
             Assert.IsTrue(_throttledLimitReached);
         }
 
-        private void TrottledReadStream_ThrottledMaximumReached(object sender, bool e)
+        private void TrottledReadStream_ThrottledMaximumReached(object sender, EventArgs e)
         {
             _throttledLimitReached = true;
         }

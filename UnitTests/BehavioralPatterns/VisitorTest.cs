@@ -8,11 +8,14 @@ using System.Diagnostics;
 namespace TSTune.DesignPattern.UnitTests.BehavioralPatterns
 {
     /// <summary>
-    /// Unit test for the visitor example
+    /// Test class for the Visitor Pattern
     /// </summary>
     [TestClass]
     public class VisitorTest
     {
+        /// <summary>
+        /// This test shows how a visitor iterates through all elements and finds the ValueStatement classes.
+        /// </summary>
         [TestMethod]
         public void Visitor_Should_FindAllValueStatements()
         {

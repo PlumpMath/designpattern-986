@@ -8,6 +8,9 @@ using TSTune.DesignPattern.StructuralPatterns.FacadePattern.PriceManagement;
 
 namespace TSTune.DesignPattern.StructuralPatterns.FacadePattern
 {
+    /// <summary>
+    /// Facade implementation which simplifies the process of placing an order which consists of several steps.
+    /// </summary>
     public class OrderApplicationServiceFacade
     {
         /// <summary>

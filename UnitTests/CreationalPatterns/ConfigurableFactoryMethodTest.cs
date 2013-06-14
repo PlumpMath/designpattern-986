@@ -7,9 +7,16 @@ using TSTune.DesignPattern.CreationalPatterns.FactoryMethodPattern.DynamicFactor
 
 namespace TSTune.DesignPattern.UnitTests.CreationalPatterns
 {
+    /// <summary>
+    /// Test class for the Factory Method Pattern
+    /// </summary>
     [TestClass]
     public class ConfigurableFactoryMethodTest
     {
+        /// <summary>
+        /// The unit test is configured to use the XmlSerializer (app key "OrderSerializer" =  "XmlSerializer")
+        /// This test validates that the correct serializer is selected based on the configuration entry.
+        /// </summary>
         [TestMethod]
         public void FactoryMethod_Should_ReturnXmlSerializer()
         {

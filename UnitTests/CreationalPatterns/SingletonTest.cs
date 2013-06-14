@@ -9,11 +9,14 @@ using TSTune.DesignPattern.CreationalPatterns.SingletonPattern;
 namespace TSTune.DesignPattern.UnitTests.CreationalPatterns
 {
     /// <summary>
-    /// Unit test for the singleton example
+    /// Test class for the Singleton Pattern
     /// </summary>
     [TestClass]
     public class SingletonTest
     {
+        /// <summary>
+        /// Uses the singleton and validates that the counter always increments on the same single instance
+        /// </summary>
         [TestMethod]
         public void Singleton_Should_IncrementOnSameInstance()
         {
@@ -31,6 +34,9 @@ namespace TSTune.DesignPattern.UnitTests.CreationalPatterns
             Assert.AreEqual(count, IncrementalCounterSingleton.Instance.GetCurrentValue());
         }
 
+        /// <summary>
+        /// Starts multiple threads and validates that the Singleton Implementation is thread safe
+        /// </summary>
         [TestMethod]
         public void Singleton_ShouldBe_ThreadSafe()
         {

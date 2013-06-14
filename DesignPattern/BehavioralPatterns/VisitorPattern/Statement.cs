@@ -12,8 +12,15 @@ namespace TSTune.DesignPattern.BehavioralPatterns.VisitorPattern
     /// </summary>
     public abstract class Statement
     {
+        /// <summary>
+        /// The Code block represented by this statement
+        /// </summary>
         public string Code { get; set; }
 
+        /// <summary>
+        /// Accept method for the visitor
+        /// </summary>
+        /// <param name="visitor">The visitor</param>
         public abstract void Accept(ISyntaxTreeVisitor visitor);
     }
 }

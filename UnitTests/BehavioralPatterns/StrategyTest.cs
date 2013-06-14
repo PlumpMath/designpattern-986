@@ -9,11 +9,15 @@ using TSTune.DesignPattern.BehavioralPatterns.StrategyPattern;
 namespace TSTune.DesignPattern.UnitTests.BehavioralPatterns
 {
     /// <summary>
-    /// Unit test for the strategy pattern
+    /// Test class for the Strategy Pattern
     /// </summary>
     [TestClass]
     public class StrategyTest
     {
+        /// <summary>
+        /// The SortStrategySelector chooses the right sort strategy based on the size of the input list.
+        /// In this case an array of just 4 elements is passed and the simple bubble sort should be selected in this case.
+        /// </summary>
         [TestMethod]
         public void SmallArray_ShouldBeSortedWith_Bubblesort()
         {
@@ -29,6 +33,10 @@ namespace TSTune.DesignPattern.UnitTests.BehavioralPatterns
             CollectionAssert.AreEqual(new[] { 3, 5, 6, 7 }, data);
         }
 
+        /// <summary>
+        /// The SortStrategySelector chooses the right sort strategy based on the size of the input list.
+        /// In this case an array with more than 10 elements is passed and the quick sort should be selected in this case.
+        /// </summary>
         [TestMethod]
         public void BigArray_ShouldBeSortedWith_Quicksort()
         {

@@ -5,9 +5,16 @@ using TSTune.DesignPattern.CreationalPatterns.FactoryMethodPattern.DynamicFactor
 
 namespace TSTune.DesignPattern.UnitTests.CreationalPatterns
 {
+    /// <summary>
+    /// Test class for the Factory Method Pattern
+    /// </summary>
     [TestClass]
     public class DynamicFactoryMethodTest
     {
+        /// <summary>
+        /// Loads a gif image from the resources and calls the ImageConverterFactory 
+        /// to validate that the gif image is recognized and the correct converter class is returned
+        /// </summary>
         [TestMethod]
         public void FactoryMethod_Should_ReturnGifConverter()
         {
@@ -17,6 +24,10 @@ namespace TSTune.DesignPattern.UnitTests.CreationalPatterns
             Assert.IsInstanceOfType(result, typeof(GifImageConverter));
         }
 
+        /// <summary>
+        /// Loads a png image from the resources and calls the ImageConverterFactory 
+        /// to validate that the gif image is recognized and the correct converter class is returned
+        /// </summary>
         [TestMethod]
         public void FactoryMethod_Should_ReturnPngConverter()
         {

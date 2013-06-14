@@ -8,9 +8,16 @@ using TSTune.DesignPattern.CreationalPatterns.PrototypePattern;
 
 namespace TSTune.DesignPattern.UnitTests.CreationalPatterns
 {
+    /// <summary>
+    /// Test class for the Prototype Pattern
+    /// </summary>
     [TestClass]
     public class PrototypeTest
     {
+        /// <summary>
+        /// Calls the clone method and validates that the data is the same
+        /// but the instances are different
+        /// </summary>
         [TestMethod]
         public void ClonedClass_ShouldBe_DecoupledFromOriginalClass()
         {

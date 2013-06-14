@@ -7,24 +7,40 @@ using System.Threading.Tasks;
 namespace TSTune.DesignPattern.StructuralPatterns.AdapterPattern
 {
     /// <summary>
-    /// Timer which returns the CPU
+    /// Adapter which simplifies and abstracts the legacy implementation of an high resolution timer.
+    /// It makes sure that the legacy component can be easily replaced at any time 
+    /// and that the details do not spread across the whole system.
+    /// Additionally, it simplifies the interface of the adapted component.
     /// </summary>
     public class HighResolutionTimerAdapter : IHighResolutionTimerAdapter
     {
-        private LegacyHighResolutionTimer _legacyHighResolutionTimer;
+        /// <summary>
+        /// The wrapped legacy class
+        /// </summary>
+        private LegacyHighResolutionTimerNativeMethods _legacyHighResolutionTimer;
         private Int64 _startValue;
 
+        /// <summary>
+        /// Constructor
+        /// </summary>
         public HighResolutionTimerAdapter()
         {
-            _legacyHighResolutionTimer = new LegacyHighResolutionTimer();
+            _legacyHighResolutionTimer = new LegacyHighResolutionTimerNativeMethods();
         }
 
+        /// <summary>
+        /// Starts the timer
+        /// </summary>
         public void Start()
         {
             // Store the current timer value when the measuring starts
             _startValue = _legacyHighResolutionTimer.Value;
         }
 
+        /// <summary>
+        /// Stops the timer and returns the elapsed time in milliseconds.
+        /// </summary>
+        /// <returns>The elapsed time in milliseconds</returns>
         public Int64 Stop()
         {
             // Get the current timer value when the measuring is stopped

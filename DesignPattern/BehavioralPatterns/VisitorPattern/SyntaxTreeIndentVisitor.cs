@@ -16,6 +16,12 @@ namespace TSTune.DesignPattern.BehavioralPatterns.VisitorPattern
         private int _indent = 0;
 
         #region Visitor members
+        /// <summary>
+        /// Visit method which is invoked when visitor operates on BinaryStatement.
+        /// The indent is increased everytime a binary statement is found.
+        /// Writes start and end of the method to the console.
+        /// </summary>
+        /// <param name="statement">The binary statement</param>
         public void Visit(BinaryStatement statement)
         {
             Write("Start visit BinaryStatement");
@@ -26,12 +32,23 @@ namespace TSTune.DesignPattern.BehavioralPatterns.VisitorPattern
             Write("End visit BinaryStatement");
         }
 
+        /// <summary>
+        /// Visit method which is invoked when visitor operates on ValueStatement.
+        /// Just writes start and end of the method to the console. 
+        /// </summary>
+        /// <param name="statement">The value statement</param>
         public void Visit(ValueStatement statement)
         {
             Write("Start visit ValueStatement");
             Write("End visit ValueStatement");       
         }
 
+        /// <summary>
+        /// Visit method which is invoked when visitor operates on SyntaxTree
+        /// The indent is increased for each syntax tree.
+        /// Writes start and end of the method to the console.
+        /// </summary>
+        /// <param name="statement">The Syntax Tree</param>
         public void Visit(SyntaxTree statement)
         {
             Write("Start visit SyntaxTree");

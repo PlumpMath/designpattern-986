@@ -8,9 +8,15 @@ using TSTune.DesignPattern.CreationalPatterns.BuilderPattern;
 
 namespace TSTune.DesignPattern.UnitTests.CreationalPatterns
 {
+    /// <summary>
+    /// Test class for the Builder Pattern
+    /// </summary>
     [TestClass]
     public class BuilderTest
     {
+        /// <summary>
+        /// Uses the HtmlNewsBuilder to create a HTML page using the builder pattern
+        /// </summary>
         [TestMethod]
         public void Builder_Should_ReturnHtmlPage()
         {
@@ -27,6 +33,9 @@ namespace TSTune.DesignPattern.UnitTests.CreationalPatterns
             Assert.IsTrue(result.StartsWith("<!DOCTYPE"));
         }
 
+        /// <summary>
+        /// Uses the RssNewsBuilder to create a RSS xml using the builder pattern
+        /// </summary>
         [TestMethod]
         public void Builder_Should_ReturnRssFeed()
         {

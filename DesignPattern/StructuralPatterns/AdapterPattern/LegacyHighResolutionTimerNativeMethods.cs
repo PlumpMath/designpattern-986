@@ -8,10 +8,13 @@ using System.Threading.Tasks;
 namespace TSTune.DesignPattern.StructuralPatterns.AdapterPattern
 {
     /// <summary>
+    /// This class represents a legacy implementation for a timer component.
+    /// It makes calls into external operation system dlls which makes it highly dependend on the underlying operation system.
+    ///
     /// Example from http://msdn.microsoft.com/en-us/library/aa964692(v=vs.80).aspx 
     /// using the High-Resolution Timer
     /// </summary>
-    public class LegacyHighResolutionTimer
+    public class LegacyHighResolutionTimerNativeMethods
     {
         private bool isPerfCounterSupported = false;
         private Int64 frequency = 0;
@@ -22,7 +25,10 @@ namespace TSTune.DesignPattern.StructuralPatterns.AdapterPattern
         [DllImport(lib)]
         private static extern int QueryPerformanceFrequency(ref Int64 frequency);
 
-        public LegacyHighResolutionTimer()
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        public LegacyHighResolutionTimerNativeMethods()
         {
             // Query the high-resolution timer only if it is supported.
             // A returned frequency of 1000 typically indicates that it is not
@@ -45,6 +51,9 @@ namespace TSTune.DesignPattern.StructuralPatterns.AdapterPattern
             }
         }
 
+        /// <summary>
+        /// Gets the frequency of the counter
+        /// </summary>
         public Int64 Frequency
         {
             get
@@ -53,6 +62,9 @@ namespace TSTune.DesignPattern.StructuralPatterns.AdapterPattern
             }
         }
 
+        /// <summary>
+        /// Gets the current counter value
+        /// </summary>
         public Int64 Value
         {
             get

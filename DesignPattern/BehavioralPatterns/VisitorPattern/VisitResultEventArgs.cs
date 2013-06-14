@@ -11,7 +11,14 @@ namespace TSTune.DesignPattern.BehavioralPatterns.VisitorPattern
     /// </summary>
     public class VisitResultEventArgs: EventArgs
     {
+        /// <summary>
+        /// Gets or sets the value
+        /// </summary>
         public string Value { get; set; }
+
+        /// <summary>
+        /// Gets or sets the statement depth
+        /// </summary>
         public int Depth { get; set; }
     }
 }

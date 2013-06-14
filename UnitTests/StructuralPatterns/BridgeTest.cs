@@ -8,9 +8,16 @@ using TSTune.DesignPattern.StructuralPatterns.BridgePattern;
 
 namespace TSTune.DesignPattern.UnitTests.StructuralPatterns
 {
+    /// <summary>
+    /// Test class for the Bridge pattern
+    /// </summary>
     [TestClass]
     public class BridgeTest
     {
+        /// <summary>
+        /// This test uses the Cart bridge class to store Customer data.
+        /// After that it validates if the Customer received the data.
+        /// </summary>
         [TestMethod]
         public void Customer_Should_ContainDataSetInCart()
         {

@@ -1,15 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.IO;
 using System.Xml.Serialization;
 
 namespace TSTune.DesignPattern.CreationalPatterns.FactoryMethodPattern.ConfigurableFactoryMethod
 {
-    public class OrderXmlSerializer: IOrderManagement
+    /// <summary>
+    /// Implements the IOrderSerializer interface. 
+    /// Uses the Xml serializer to transform the Order object into a string.
+    /// </summary>
+    public class OrderXmlSerializer: IOrderSerializer
     {
+        /// <summary>
+        /// Serializes the given order using the standard .NET Xml Serializer
+        /// </summary>
+        /// <param name="order">The order</param>
+        /// <returns>The serialized order</returns>
         public string Serialize(Order order)
         {
             string result = null;
